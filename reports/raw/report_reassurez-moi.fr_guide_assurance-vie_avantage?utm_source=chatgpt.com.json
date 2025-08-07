@@ -1,0 +1,407 @@
+{
+    "url": "https://reassurez-moi.fr/guide/assurance-vie/avantage?utm_source=chatgpt.com",
+    "analysis_results": {
+        "category_1_content": {
+            "1.1_richness_coverage": {
+                "word_count": 2994,
+                "entity_count": 113,
+                "entity_distribution": {
+                    "LOC": 22,
+                    "PER": 29,
+                    "MISC": 52,
+                    "ORG": 10
+                }
+            },
+            "1.2_style_clarity": {
+                "sentence_count": 173,
+                "avg_sentence_length_words": 19.982658959537574,
+                "list_count": 26,
+                "table_count": 3
+            },
+            "1.3_sources_reliability": {
+                "external_link_count": 2,
+                "external_links": [
+                    "https://app.reassurez-moi.fr/contact",
+                    "https://app.reassurez-moi.fr/contact"
+                ],
+                "textual_citation_count": 2
+            },
+            "1.4_freshness": {
+                "publication_date_meta": null,
+                "detected_dates_in_text": [
+                    "2070-08-07T00:00:00",
+                    "2070-08-07T00:00:00",
+                    "2070-08-07T00:00:00",
+                    "2070-08-07T00:00:00",
+                    "2070-08-07T00:00:00"
+                ],
+                "year_in_title_h1": null
+            }
+        },
+        "category_2_structure": {
+            "2.1_hn_structure": {
+                "h1_count": 1,
+                "headings_by_level": {
+                    "h1": [
+                        "Quels sont les avantages d’une assurance vie ?"
+                    ],
+                    "h2": [
+                        "Avantage n°1 : une enveloppe d’épargne libre avec différents types de supports",
+                        "Avantage n°2 : un placement d’épargne très souple",
+                        "Avantage n°3 : l’adaptation à différents objectifs d’épargne",
+                        "Avantage n°4 : la fiscalité de l’assurance vie",
+                        "Avantage n°5 : un taux de rendement élevé",
+                        "Avantage n°6 : la garantie du capital investi avec les fonds euros",
+                        "Avantage n°7 : la transmission d’un capital hors succession",
+                        "Avantage n°8 : l’accès à un complément de revenus à la retraite avec la rente viagère",
+                        "Avantage n°9 : la possibilité de dynamiser son épargne avec l’arbitrage d’assurance vie",
+                        "Avantage n°10 : l’accessibilité aux programmes d’épargne handicap",
+                        "Quid des inconvénients de l’assurance vie ?",
+                        "FAQ"
+                    ],
+                    "h3": [
+                        "Peut-on choisir la répartition de son épargne d’assurance vie ?",
+                        "Le capital d’une assurance vie est-il bloqué ?",
+                        "Peut-on souscrire une assurance vie à deux ?",
+                        "Est-ce possible d’avoir plusieurs contrats d’assurance vie à son nom ?",
+                        "Quel est l’avantage d’une assurance vie en cas de succession ?",
+                        "Une assurance vie est-elle toujours hors succession ?",
+                        "À quoi sert l’arbitrage d’assurance vie ?"
+                    ]
+                },
+                "hierarchy_issues": []
+            },
+            "2.2_metadata": {
+                "title": "Top 10 des avantages de l’assurance vie",
+                "title_length": 39,
+                "meta_description": "Entre son taux de rendement élevé ou la transmission d’un capital hors succession, l’assurance vie a divers avantages. Top 10 de ses atouts !",
+                "meta_description_length": 141
+            },
+            "2.3_images_optimization": {
+                "total_images": 8,
+                "images_with_alt": 8,
+                "alt_coverage_percentage": 100.0,
+                "images_with_figcaption": 0
+            },
+            "2.4_structured_data": {
+                "schema_count": 0,
+                "schema_types": []
+            },
+            "2.5_crawlability": {
+                "robots_txt_status": "found",
+                "sitemap_xml_status": "found"
+            }
+        },
+        "category_3_linking": {
+            "3.1_3.2_internal_linking": {
+                "internal_link_count": 12,
+                "anchor_text_diversity": 12,
+                "non_descriptive_anchor_count": 0,
+                "anchor_text_distribution": {
+                    "fonds en euros": 1,
+                    "placement sécuritaire": 1,
+                    "unités de compte": 1,
+                    "parts de SCPI": 1,
+                    "fonctionnement de l’assurance vie": 1
+                }
+            }
+        },
+        "category_4_performance": {
+            "4.1_4.2_desktop_performance": {
+                "LCP_ms": 1070,
+                "INP_ms": 67,
+                "CLS_score": 0.02,
+                "mobile_friendly_score": null
+            },
+            "4.1_4.2_mobile_performance": {
+                "LCP_ms": 1250,
+                "INP_ms": 142,
+                "CLS_score": 0.03,
+                "mobile_friendly_score": null
+            }
+        },
+        "category_5_aio": {
+            "5.1_atomicity_direct_answer": {
+                "potential_qa_pairs": 18,
+                "summary_block_count": 0
+            },
+            "5.2_quantifiable_data": {
+                "percentage_count": 1,
+                "currency_mention_count": 16,
+                "numeric_date_count": 15
+            },
+            "5.3_expertise_signals": {
+                "author_schema_present": false,
+                "about_page_linked": true
+            },
+            "5.4_multimodal_interoperability": {
+                "video_embed_count": 0,
+                "potential_api_link_count": 0
+            }
+        },
+        "category_6_llm_analysis": {
+            "6.1_content_quality_eat": {
+                "content_quality_score": 8,
+                "expertise_score": 7,
+                "authoritativeness_score": 6,
+                "trustworthiness_score": 7,
+                "overall_eat_score": 7,
+                "strengths": [
+                    "Content is well-structured and covers multiple aspects of life insurance.",
+                    "Provides practical information that can help readers make informed decisions."
+                ],
+                "weaknesses": [
+                    "Lacks citations or references to authoritative sources.",
+                    "Author credentials are not clearly presented, reducing perceived expertise."
+                ],
+                "recommendations": [
+                    "Include citations from reputable financial institutions or studies to enhance authority.",
+                    "Add a brief author bio to establish credibility and expertise."
+                ]
+            },
+            "6.2_search_intent": {
+                "primary_intent": "informational",
+                "secondary_intents": [
+                    "commercial",
+                    "transactional"
+                ],
+                "intent_fulfillment_score": 8,
+                "query_alignment_score": 9,
+                "target_keywords_identified": [
+                    "avantages assurance vie",
+                    "assurance vie",
+                    "placement épargne"
+                ],
+                "user_satisfaction_potential": 8,
+                "content_intent_match": "excellent",
+                "recommendations": [
+                    "Include more examples or case studies to illustrate the advantages.",
+                    "Add a FAQ section to address common questions about life insurance."
+                ]
+            },
+            "6.3_topical_coverage": {
+                "main_topic": "avantages de l'assurance vie",
+                "topic_completeness_score": 8,
+                "semantic_richness_score": 7,
+                "subtopics_covered": [
+                    "types d'assurance vie",
+                    "flexibilité de l'épargne",
+                    "avantages fiscaux",
+                    "succession"
+                ],
+                "missing_subtopics": [
+                    "risques associés",
+                    "comparaison avec d'autres placements",
+                    "historique de l'assurance vie"
+                ],
+                "content_depth_level": "moderate",
+                "related_concepts_coverage": 6,
+                "keyword_context_relevance": 8,
+                "recommendations": [
+                    "Ajouter des sections sur les risques associés aux différents types d'assurance vie.",
+                    "Inclure une comparaison avec d'autres produits d'épargne ou d'investissement pour enrichir le contenu."
+                ]
+            },
+            "6.4_user_experience": {
+                "engagement_potential_score": 7,
+                "readability_score": 6,
+                "actionability_score": 5,
+                "content_structure_score": 7,
+                "cta_effectiveness_score": 4,
+                "user_journey_support_score": 6,
+                "reading_difficulty": "moderate",
+                "engagement_elements": [
+                    "clear headings",
+                    "detailed explanations"
+                ],
+                "improvement_areas": [
+                    "add bullet points",
+                    "include calls-to-action"
+                ],
+                "recommendations": [
+                    "simplify language for broader audience",
+                    "add interactive elements or FAQs"
+                ]
+            },
+            "6.5_featured_snippet_potential": {
+                "featured_snippet_potential": 8,
+                "direct_answer_suitability": 7,
+                "faq_format_potential": 6,
+                "list_format_suitability": 9,
+                "table_format_potential": 5,
+                "voice_search_optimization": 6,
+                "how_to_content_score": 4,
+                "snippet_ready_sections": [
+                    "Avantage n°1 : une enveloppe d’épargne libre",
+                    "Avantage n°2 : un placement d’épargne très souple"
+                ],
+                "optimization_opportunities": [
+                    "Add concise definitions for key terms",
+                    "Include a summary or conclusion section"
+                ],
+                "recommendations": [
+                    "Use bullet points for advantages to enhance readability",
+                    "Incorporate an FAQ section addressing common questions about life insurance"
+                ]
+            },
+            "6.6_brand_communication": {
+                "tone_consistency_score": 8,
+                "brand_voice_clarity": 7,
+                "professional_presentation": 9,
+                "communication_clarity": 8,
+                "target_audience_alignment": 9,
+                "message_coherence": 8,
+                "tone_description": "authoritative",
+                "communication_strengths": [
+                    "Well-structured content with clear headings and subheadings",
+                    "Detailed explanations of complex financial concepts"
+                ],
+                "communication_weaknesses": [
+                    "Occasional jargon that may not be easily understood by all readers",
+                    "Lengthy paragraphs that could benefit from more concise phrasing"
+                ],
+                "recommendations": [
+                    "Simplify jargon and provide definitions for complex terms",
+                    "Break up long paragraphs for improved readability"
+                ]
+            }
+        },
+        "enhanced_content_analysis": {
+            "1.1_informational_density": {
+                "total_entities": 113,
+                "entities_by_type": {
+                    "LOC": 15,
+                    "PER": 13,
+                    "MISC": 33,
+                    "ORG": 7
+                },
+                "entity_relations_count": 19,
+                "concept_coverage_score": 100,
+                "thematic_depth_score": 63.35260115606936,
+                "authority_links": [],
+                "informational_density_score": 90.0
+            },
+            "1.2_atomic_blocks": {
+                "qa_pairs_detected": 2,
+                "definitions_detected": 1,
+                "key_takeaways_blocks": 0,
+                "self_sufficient_lists": 1,
+                "atomic_blocks_total": 4,
+                "atomic_quality_score": 25,
+                "sample_definitions": [
+                    [
+                        "capital investi dans une assurance vie en fonds euros",
+                        "donc garanti, ce qui offre stabilité et sécurité aux investisseurs, tout en assurant un certain rendement minimal assuré, soit un compromis attractif entre sécurité et performance."
+                    ]
+                ],
+                "sample_takeaways": []
+            },
+            "1.3_ai_generated_detection": {
+                "ai_generated_phrases_count": 1,
+                "detected_ai_patterns": [
+                    "il faut savoir que"
+                ],
+                "repetitive_patterns_score": 0,
+                "mechanical_transitions_count": 25,
+                "info_density_ratio": 9.084836339345358,
+                "naturalness_score": 45,
+                "content_authenticity": "Probablement IA-généré"
+            },
+            "1.4_original_data": {
+                "percentage_data_points": 1,
+                "numeric_data_points": 16,
+                "internal_studies_references": 0,
+                "testimonials_case_studies": 0,
+                "recent_dates_count": 61,
+                "data_originality_score": 53,
+                "sample_percentages": [
+                    "2,50%"
+                ],
+                "sample_numeric_data": [
+                    "600 €",
+                    "200 €",
+                    "600 €",
+                    "200 €",
+                    "000 €"
+                ],
+                "sample_internal_refs": []
+            },
+            "1.5_nap_consistency": {
+                "company_name": "",
+                "phone_numbers_found": 0,
+                "email_addresses_found": 0,
+                "physical_addresses_found": 0,
+                "structured_data_nap": false,
+                "nap_consistency_score": 0,
+                "sample_phones": [],
+                "sample_emails": [],
+                "sample_addresses": []
+            }
+        },
+        "enhanced_structure_analysis": {
+            "2.1_ssr_javascript": {
+                "ssr_compatibility_score": 100,
+                "compatibility_level": "Excellent - Contenu entièrement accessible",
+                "critical_js_detected": 0,
+                "frameworks_detected": [],
+                "spa_indicators_count": 0,
+                "text_content_length": 18573,
+                "lazy_elements_count": 7,
+                "recommendations": []
+            },
+            "2.2_year_metadata": {
+                "title_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "title_text": "Top 10 des avantages de l’assurance vie"
+                },
+                "meta_description_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "description_text": "Entre son taux de rendement élevé ou la transmission d’un capital hors succession, l’assurance vie a divers avantages. Top 10 de ses atouts !"
+                },
+                "headings_with_year_count": 0,
+                "freshness_score": 0,
+                "freshness_level": "Amélioration nécessaire",
+                "recommendations": [
+                    "Ajouter '2025' dans le titre de la page",
+                    "Inclure '2025' dans la meta description",
+                    "Mettre à jour régulièrement les dates dans le contenu",
+                    "Utiliser des expressions comme 'dernière mise à jour' avec l'année courante"
+                ]
+            },
+            "2.3_structured_data_relevance": {
+                "total_structured_schemas": 0,
+                "json_ld_count": 0,
+                "microdata_count": 0,
+                "rdfa_count": 0,
+                "schema_types_detected": [],
+                "schema_relevance_scores": {},
+                "average_relevance_score": 0,
+                "structured_data_quality_score": 0.0,
+                "recommended_missing_schemas": [
+                    "Article",
+                    "HowTo",
+                    "Organization"
+                ],
+                "schema_optimization_level": "Basique"
+            },
+            "2.4_llms_txt_status": {
+                "llms_txt_url": "https://reassurez-moi.fr/llms.txt",
+                "status": "not_found",
+                "content_length": 0,
+                "lines_count": 0,
+                "has_user_agent_directive": false,
+                "has_disallow_directive": false,
+                "has_allow_directive": false,
+                "has_crawl_delay": false,
+                "has_ai_specific_directives": false,
+                "current_effectiveness": "Sans objet",
+                "implementation_recommendation": "Le fichier llms.txt est une initiative expérimentale avec une efficacité actuellement très limitée. Sa mise en place peut être considérée comme une préparation pour l'avenir, mais ne doit pas être prioritaire.",
+                "sample_content": ""
+            }
+        }
+    }
+}

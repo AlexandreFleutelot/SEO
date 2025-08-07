@@ -1,0 +1,248 @@
+{
+    "url": "https://httpbin.org/html",
+    "analysis_results": {
+        "category_1_content": {
+            "1.1_richness_coverage": {
+                "word_count": 605,
+                "entity_count": 58,
+                "entity_distribution": {
+                    "PER": 20,
+                    "MISC": 29,
+                    "LOC": 4,
+                    "ORG": 5
+                }
+            },
+            "1.2_style_clarity": {
+                "sentence_count": 55,
+                "avg_sentence_length_words": 13.472727272727273,
+                "list_count": 0,
+                "table_count": 0
+            },
+            "1.3_sources_reliability": {
+                "external_link_count": 0,
+                "external_links": [],
+                "textual_citation_count": 0
+            },
+            "1.4_freshness": {
+                "publication_date_meta": null,
+                "detected_dates_in_text": [
+                    "2025-12-07T00:00:00",
+                    "2025-08-10T00:00:00"
+                ],
+                "year_in_title_h1": null
+            }
+        },
+        "category_2_structure": {
+            "2.1_hn_structure": {
+                "h1_count": 1,
+                "headings_by_level": {
+                    "h1": [
+                        "Herman Melville - Moby-Dick"
+                    ]
+                },
+                "hierarchy_issues": []
+            },
+            "2.2_metadata": {
+                "title": null,
+                "title_length": 0,
+                "meta_description": null,
+                "meta_description_length": 0
+            },
+            "2.3_images_optimization": {
+                "total_images": 0,
+                "images_with_alt": 0,
+                "alt_coverage_percentage": 100,
+                "images_with_figcaption": 0
+            },
+            "2.4_structured_data": {
+                "schema_count": 0,
+                "schema_types": []
+            },
+            "2.5_crawlability": {
+                "robots_txt_status": "found",
+                "sitemap_xml_status": "not_found"
+            }
+        },
+        "category_3_linking": {
+            "3.1_3.2_internal_linking": {
+                "internal_link_count": 0,
+                "anchor_text_diversity": 0,
+                "non_descriptive_anchor_count": 0,
+                "anchor_text_distribution": {}
+            }
+        },
+        "category_4_performance": {
+            "4.1_4.2_desktop_performance": {
+                "LCP_ms": 2147,
+                "INP_ms": 28,
+                "CLS_score": 0.0,
+                "mobile_friendly_score": null
+            },
+            "4.1_4.2_mobile_performance": {
+                "LCP_ms": 4222,
+                "INP_ms": 386,
+                "CLS_score": 0.07,
+                "mobile_friendly_score": null
+            }
+        },
+        "category_5_aio": {
+            "5.1_atomicity_direct_answer": {
+                "potential_qa_pairs": 0,
+                "summary_block_count": 0
+            },
+            "5.2_quantifiable_data": {
+                "percentage_count": 0,
+                "currency_mention_count": 0,
+                "numeric_date_count": 0
+            },
+            "5.3_expertise_signals": {
+                "author_schema_present": false,
+                "about_page_linked": false
+            },
+            "5.4_multimodal_interoperability": {
+                "video_embed_count": 0,
+                "potential_api_link_count": 0
+            }
+        },
+        "category_6_llm_analysis": {
+            "6.1_content_quality_eat": {
+                "error": "LLM analysis disabled - check API keys and configuration"
+            },
+            "6.2_search_intent": {
+                "error": "LLM analysis disabled - check API keys and configuration"
+            },
+            "6.3_topical_coverage": {
+                "error": "LLM analysis disabled - check API keys and configuration"
+            },
+            "6.4_user_experience": {
+                "error": "LLM analysis disabled - check API keys and configuration"
+            },
+            "6.5_featured_snippet_potential": {
+                "error": "LLM analysis disabled - check API keys and configuration"
+            },
+            "6.6_brand_communication": {
+                "error": "LLM analysis disabled - check API keys and configuration"
+            }
+        },
+        "enhanced_content_analysis": {
+            "1.1_informational_density": {
+                "total_entities": 58,
+                "entities_by_type": {
+                    "PER": 20,
+                    "MISC": 29,
+                    "LOC": 4,
+                    "ORG": 5
+                },
+                "entity_relations_count": 11,
+                "concept_coverage_score": 100,
+                "thematic_depth_score": 40.0,
+                "authority_links": [],
+                "informational_density_score": 90.0
+            },
+            "1.2_atomic_blocks": {
+                "qa_pairs_detected": 0,
+                "definitions_detected": 0,
+                "key_takeaways_blocks": 0,
+                "self_sufficient_lists": 0,
+                "atomic_blocks_total": 0,
+                "atomic_quality_score": 0,
+                "sample_definitions": [],
+                "sample_takeaways": []
+            },
+            "1.3_ai_generated_detection": {
+                "ai_generated_phrases_count": 0,
+                "detected_ai_patterns": [],
+                "repetitive_patterns_score": 0,
+                "mechanical_transitions_count": 0,
+                "info_density_ratio": 2.3140495867768593,
+                "naturalness_score": 100,
+                "content_authenticity": "Naturel"
+            },
+            "1.4_original_data": {
+                "percentage_data_points": 0,
+                "numeric_data_points": 0,
+                "internal_studies_references": 0,
+                "testimonials_case_studies": 0,
+                "recent_dates_count": 2,
+                "data_originality_score": 0,
+                "sample_percentages": [],
+                "sample_numeric_data": [],
+                "sample_internal_refs": []
+            },
+            "1.5_nap_consistency": {
+                "company_name": "",
+                "phone_numbers_found": 0,
+                "email_addresses_found": 0,
+                "physical_addresses_found": 0,
+                "structured_data_nap": false,
+                "nap_consistency_score": 0,
+                "sample_phones": [],
+                "sample_emails": [],
+                "sample_addresses": []
+            }
+        },
+        "enhanced_structure_analysis": {
+            "2.1_ssr_javascript": {
+                "ssr_compatibility_score": 100,
+                "compatibility_level": "Excellent - Contenu entièrement accessible",
+                "critical_js_detected": 0,
+                "frameworks_detected": [],
+                "spa_indicators_count": 0,
+                "text_content_length": 3606,
+                "lazy_elements_count": 0,
+                "recommendations": []
+            },
+            "2.2_year_metadata": {
+                "title_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "title_text": ""
+                },
+                "meta_description_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "description_text": ""
+                },
+                "headings_with_year_count": 0,
+                "freshness_score": 0,
+                "freshness_level": "Amélioration nécessaire",
+                "recommendations": [
+                    "Ajouter '2025' dans le titre de la page",
+                    "Inclure '2025' dans la meta description",
+                    "Mettre à jour régulièrement les dates dans le contenu",
+                    "Utiliser des expressions comme 'dernière mise à jour' avec l'année courante"
+                ]
+            },
+            "2.3_structured_data_relevance": {
+                "total_structured_schemas": 0,
+                "json_ld_count": 0,
+                "microdata_count": 0,
+                "rdfa_count": 0,
+                "schema_types_detected": [],
+                "schema_relevance_scores": {},
+                "average_relevance_score": 0,
+                "structured_data_quality_score": 0.0,
+                "recommended_missing_schemas": [
+                    "Organization"
+                ],
+                "schema_optimization_level": "Basique"
+            },
+            "2.4_llms_txt_status": {
+                "llms_txt_url": "https://httpbin.org/llms.txt",
+                "status": "not_found",
+                "content_length": 0,
+                "lines_count": 0,
+                "has_user_agent_directive": false,
+                "has_disallow_directive": false,
+                "has_allow_directive": false,
+                "has_crawl_delay": false,
+                "has_ai_specific_directives": false,
+                "current_effectiveness": "Sans objet",
+                "implementation_recommendation": "Le fichier llms.txt est une initiative expérimentale avec une efficacité actuellement très limitée. Sa mise en place peut être considérée comme une préparation pour l'avenir, mais ne doit pas être prioritaire.",
+                "sample_content": ""
+            }
+        }
+    }
+}

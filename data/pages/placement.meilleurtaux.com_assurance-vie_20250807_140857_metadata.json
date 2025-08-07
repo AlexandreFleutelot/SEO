@@ -1,0 +1,32 @@
+{
+  "url": "https://placement.meilleurtaux.com/assurance-vie/",
+  "download_date": "2025-08-07T14:08:57.504282",
+  "html_file": "placement.meilleurtaux.com_assurance-vie_20250807_140857.html",
+  "html_size_bytes": 213283,
+  "html_size_kb": 208.28,
+  "content_hash": "f007fe0bd6fa4ed82722b14214a6daaa",
+  "response_headers": {
+    "Date": "Thu, 07 Aug 2025 12:08:57 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "CF-RAY": "96b6a98f79a8d482-CDG",
+    "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
+    "Cache-Control": "max-age=300, must-revalidate, post-check=0, pre-check=0",
+    "pragma": "no-cache",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "last-modified": "Thu, 07 Aug 2025 09:17:20 GMT",
+    "access-control-allow-origin": "https://app.placement.meilleurtaux.com",
+    "strict-transport-security": "max-age=16070400; includeSubDomains",
+    "vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "CF-Cache-Status": "HIT",
+    "Age": "10297",
+    "Set-Cookie": "__cf_bm=TpD_zweWN7ptVQY_rGb2IVxkH4RcT3BTdrvAqZwdATs-1754568537-1.0.1.1-LmydfBT5k6JdysB7XDlibLxHb_GgWxM8R7BZKmAbCd52pqFuctr9AaK3FsYh0BY5fi35hopPs0B0bH7fcq2hOYXr2zLaHj9vdebNIWvaHfs; path=/; expires=Thu, 07-Aug-25 12:38:57 GMT; domain=.meilleurtaux.com; HttpOnly; Secure; SameSite=None",
+    "Server": "cloudflare",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "domain": "placement.meilleurtaux.com",
+  "path": "/assurance-vie/"
+}

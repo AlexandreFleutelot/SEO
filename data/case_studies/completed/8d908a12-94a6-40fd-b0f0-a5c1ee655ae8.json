@@ -1,0 +1,33 @@
+{
+  "id": "8d908a12-94a6-40fd-b0f0-a5c1ee655ae8",
+  "title": "Test Complet - Avantages Assurance Vie",
+  "research_question": "Quels sont les principaux avantages de l'assurance vie selon les experts ?",
+  "description": "Test complet du système d'analyse comparative",
+  "status": "completed",
+  "created_date": "2025-08-07T15:05:55.502083",
+  "updated_date": "2025-08-07T15:05:57.515734",
+  "llm_providers": [
+    "openai"
+  ],
+  "max_sources_per_llm": 10,
+  "total_sources_found": 4,
+  "sources_analyzed": 4,
+  "analysis_duration_minutes": 0.0,
+  "cost_estimate_usd": 0.0,
+  "llm_responses": [
+    {
+      "provider": "openai",
+      "model_name": "gpt-4o-mock",
+      "query": "Quels sont les principaux avantages de l'assurance vie selon les experts ?",
+      "response_text": "Test response with sources",
+      "timestamp": "2025-08-07T15:05:55.502282",
+      "tokens_used": 1000,
+      "sources_count": 4
+    }
+  ],
+  "analyzed_sources": [],
+  "competitor_insights": [],
+  "comparative_scores": {},
+  "keyword_analysis": {},
+  "sentiment_analysis": {}
+}

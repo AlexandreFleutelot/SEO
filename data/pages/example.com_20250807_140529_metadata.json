@@ -1,0 +1,23 @@
+{
+  "url": "https://example.com",
+  "download_date": "2025-08-07T14:05:29.244466",
+  "html_file": "example.com_20250807_140529.html",
+  "html_size_bytes": 1256,
+  "html_size_kb": 1.23,
+  "content_hash": "84238dfc8092e5d9c0dac8ef93371a07",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Content-Type": "text/html",
+    "ETag": "\"84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134\"",
+    "Last-Modified": "Mon, 13 Jan 2025 20:11:20 GMT",
+    "Vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "Content-Length": "648",
+    "Cache-Control": "max-age=3213",
+    "Date": "Thu, 07 Aug 2025 12:05:29 GMT",
+    "Alt-Svc": "h3=\":443\"; ma=93600,h3-29=\":443\"; ma=93600",
+    "Connection": "keep-alive"
+  },
+  "domain": "example.com",
+  "path": ""
+}

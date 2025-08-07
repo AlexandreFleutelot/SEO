@@ -1,0 +1,98 @@
+{
+    "url": "https://placement.meilleurtaux.com/assurance-vie/",
+    "analysis_date": "2025-08-07T14:10:09.565121",
+    "global_analysis": {
+        "global_score": 77.5,
+        "performance_level": "Très bon",
+        "level_color": "lightgreen",
+        "strengths": [
+            "category_4_performance",
+            "category_1_content"
+        ],
+        "weaknesses": [
+            "category_5_aio"
+        ],
+        "category_breakdown": {
+            "category_1_content": 88.08333333333333,
+            "category_2_structure": 62.15,
+            "category_3_linking": 72.78571428571429,
+            "category_4_performance": 100.0,
+            "category_5_aio": 55.0,
+            "category_6_llm_analysis": 66.5
+        }
+    },
+    "category_scores": {
+        "content_semantics": {
+            "score": 88.1,
+            "details": {
+                "richness_score": 100.0,
+                "style_score": 100.0,
+                "sources_score": 88.33333333333333,
+                "freshness_score": 40,
+                "category_score": 88.08333333333333
+            }
+        },
+        "technical_structure": {
+            "score": 62.1,
+            "details": {
+                "hn_score": 100.0,
+                "metadata_score": 29.599999999999998,
+                "images_score": 100.0,
+                "schema_score": 25,
+                "crawlability_score": 40.0,
+                "category_score": 62.15
+            }
+        },
+        "internal_linking": {
+            "score": 72.8,
+            "details": {
+                "internal_links_score": 40,
+                "anchor_diversity_score": 89.28571428571429,
+                "descriptive_anchors_score": 100.0,
+                "category_score": 72.78571428571429
+            }
+        },
+        "performance": {
+            "score": 100.0,
+            "details": {
+                "desktop_score": 100.0,
+                "mobile_score": 100.0,
+                "category_score": 100.0
+            }
+        },
+        "aio_optimization": {
+            "score": 55.0,
+            "details": {
+                "atomicity_score": 100,
+                "quantifiable_score": 100,
+                "expertise_score": 0,
+                "multimodal_score": 0,
+                "category_score": 55.0
+            }
+        },
+        "llm_analysis": {
+            "score": 66.5,
+            "details": {
+                "eat_score": 70,
+                "intent_score": 85.0,
+                "coverage_score": 65.0,
+                "ux_score": 60.0,
+                "snippet_score": 60,
+                "brand_score": 40.0,
+                "category_score": 66.5
+            }
+        }
+    },
+    "scoring_metadata": {
+        "scoring_version": "1.0",
+        "category_weights": {
+            "category_1_content": 0.25,
+            "category_2_structure": 0.2,
+            "category_3_linking": 0.15,
+            "category_4_performance": 0.2,
+            "category_5_aio": 0.1,
+            "category_6_llm_analysis": 0.1
+        },
+        "total_categories": 6
+    }
+}

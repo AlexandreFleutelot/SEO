@@ -1,0 +1,33 @@
+{
+  "url": "https://www.ag2rlamondiale.fr/assurance-vie/conseil-quels-sont-les-avantages-d-une-assurance-vie",
+  "download_date": "2025-08-07T14:17:13.797818",
+  "html_file": "ag2rlamondiale.fr_assurance-vie_conseil-quels-sont-les-avantages-d-une-assurance-vie_20250807_141713.html",
+  "html_size_bytes": 182826,
+  "html_size_kb": 178.54,
+  "content_hash": "dcce19a7d4d12ee12c889fbc07c798a7",
+  "response_headers": {
+    "Date": "Thu, 07 Aug 2025 12:17:13 GMT",
+    "X-OneAgent-JS-Injection": "true",
+    "traceresponse": "00-7a3b05b3b792499cc7dfebc36bf4eb20-8340d4fa18dd5de2-01",
+    "x-dt-tracestate": "c00b96ee-d0b9b9fd@dt",
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+    "Expires": "Wed, 09 May 1979 05:30:00 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
+    "Pragma": "no-cache",
+    "vary": "accept-encoding",
+    "Content-Type": "text/html;charset=UTF-8",
+    "Set-Cookie": "JSESSIONID=4A4112DEBDFAFF75C1320837BE34DBB9; Path=/; Secure; HttpOnly;SameSite=Lax, visid_incap_2534405=GfVGKvzUQCKOxaGtxO6LXkiZlGgAAAAAQUIPAAAAAABgjck+SY6GyQE4hBhgLeq/; expires=Fri, 07 Aug 2026 02:25:56 GMT; HttpOnly; path=/; Domain=.ag2rlamondiale.fr, nlbi_2534405=7N4mcBG+pE2f4++xJ3nLiwAAAABQn5QnY2alSvdVIs5sNtJY; HttpOnly; path=/; Domain=.ag2rlamondiale.fr, incap_ses_969_2534405=WPwJJNaNsBsPzvSua5RyDUiZlGgAAAAA20NjtD6WDjTTmD6bH4gXkQ==; path=/; Domain=.ag2rlamondiale.fr",
+    "Access-Control-Allow-Credentials": "true",
+    "Server-Timing": "dtSInfo;desc=\"0\", dtRpid;desc=\"1123003842\"",
+    "Keep-Alive": "timeout=5, max=100",
+    "Connection": "Keep-Alive",
+    "Content-Encoding": "gzip",
+    "Transfer-Encoding": "chunked",
+    "X-CDN": "Imperva",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Content-Security-Policy": "frame-ancestors 'self' *.ag2rlamondiale.fr *.ppalm.fr; report-uri /csp-rapport;",
+    "X-Iinfo": "38-4505066-4505073 NNNY CT(7 14 0) RT(1754569033714 12) q(0 0 0 0) r(1 1) U24"
+  },
+  "domain": "www.ag2rlamondiale.fr",
+  "path": "/assurance-vie/conseil-quels-sont-les-avantages-d-une-assurance-vie"
+}

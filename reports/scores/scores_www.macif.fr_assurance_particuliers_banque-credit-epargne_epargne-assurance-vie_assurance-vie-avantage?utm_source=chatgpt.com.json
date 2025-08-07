@@ -1,0 +1,50 @@
+{
+    "url": "https://www.macif.fr/assurance/particuliers/banque-credit-epargne/epargne-assurance-vie/assurance-vie-avantage?utm_source=chatgpt.com",
+    "analysis_date": "2025-08-07T14:18:49.341319",
+    "global_analysis": {
+        "global_score": 0.0,
+        "performance_level": "Faible",
+        "level_color": "red",
+        "strengths": [],
+        "weaknesses": [],
+        "category_breakdown": {}
+    },
+    "category_scores": {
+        "content_semantics": {
+            "score": 0,
+            "details": {}
+        },
+        "technical_structure": {
+            "score": 0,
+            "details": {}
+        },
+        "internal_linking": {
+            "score": 0,
+            "details": {}
+        },
+        "performance": {
+            "score": 0,
+            "details": {}
+        },
+        "aio_optimization": {
+            "score": 0,
+            "details": {}
+        },
+        "llm_analysis": {
+            "score": 0,
+            "details": {}
+        }
+    },
+    "scoring_metadata": {
+        "scoring_version": "1.0",
+        "category_weights": {
+            "category_1_content": 0.25,
+            "category_2_structure": 0.2,
+            "category_3_linking": 0.15,
+            "category_4_performance": 0.2,
+            "category_5_aio": 0.1,
+            "category_6_llm_analysis": 0.1
+        },
+        "total_categories": 0
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "url": "https://www.placement.sicavonline.fr/conseil-epargne/assurance-vie/assurance-vie-avantages-inconvenients/?utm_source=chatgpt.com",
+    "analysis_date": "2025-08-07T14:15:48.916357",
+    "global_analysis": {
+        "global_score": 48.6,
+        "performance_level": "Moyen",
+        "level_color": "orange",
+        "strengths": [
+            "category_1_content",
+            "category_2_structure"
+        ],
+        "weaknesses": [
+            "category_3_linking",
+            "category_4_performance"
+        ],
+        "category_breakdown": {
+            "category_1_content": 81.13,
+            "category_2_structure": 71.9,
+            "category_3_linking": 15.0,
+            "category_4_performance": 0.0,
+            "category_5_aio": 47.0,
+            "category_6_llm_analysis": 69.5
+        }
+    },
+    "category_scores": {
+        "content_semantics": {
+            "score": 81.1,
+            "details": {
+                "richness_score": 96.80000000000001,
+                "style_score": 86.0,
+                "sources_score": 43.0,
+                "freshness_score": 100,
+                "category_score": 81.13
+            }
+        },
+        "technical_structure": {
+            "score": 71.9,
+            "details": {
+                "hn_score": 100.0,
+                "metadata_score": 84.6,
+                "images_score": 80.0,
+                "schema_score": 25,
+                "crawlability_score": 40.0,
+                "category_score": 71.9
+            }
+        },
+        "internal_linking": {
+            "score": 15.0,
+            "details": {
+                "internal_links_score": 0.0,
+                "anchor_diversity_score": 0,
+                "descriptive_anchors_score": 50,
+                "category_score": 15.0
+            }
+        },
+        "performance": {
+            "score": 0.0,
+            "details": {
+                "desktop_score": 0.0,
+                "mobile_score": 0,
+                "category_score": 0.0
+            }
+        },
+        "aio_optimization": {
+            "score": 47.0,
+            "details": {
+                "atomicity_score": 100,
+                "quantifiable_score": 68,
+                "expertise_score": 0,
+                "multimodal_score": 0,
+                "category_score": 47.0
+            }
+        },
+        "llm_analysis": {
+            "score": 69.5,
+            "details": {
+                "eat_score": 70,
+                "intent_score": 85.0,
+                "coverage_score": 75.0,
+                "ux_score": 60.0,
+                "snippet_score": 70,
+                "brand_score": 40.0,
+                "category_score": 69.5
+            }
+        }
+    },
+    "scoring_metadata": {
+        "scoring_version": "1.0",
+        "category_weights": {
+            "category_1_content": 0.25,
+            "category_2_structure": 0.2,
+            "category_3_linking": 0.15,
+            "category_4_performance": 0.2,
+            "category_5_aio": 0.1,
+            "category_6_llm_analysis": 0.1
+        },
+        "total_categories": 6
+    }
+}

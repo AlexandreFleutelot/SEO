@@ -1,0 +1,23 @@
+{
+  "id": "967de614-ed27-44c9-82b1-7784b58e49d5",
+  "title": "Test - Avantages Assurance Vie",
+  "research_question": "Quels sont les principaux avantages de l'assurance vie ?",
+  "description": "Étude test pour valider le système d'extraction de sources",
+  "status": "draft",
+  "created_date": "2025-08-07T15:02:25.323508",
+  "updated_date": "2025-08-07T15:02:25.323514",
+  "llm_providers": [
+    "openai"
+  ],
+  "max_sources_per_llm": 10,
+  "total_sources_found": 0,
+  "sources_analyzed": 0,
+  "analysis_duration_minutes": 0.0,
+  "cost_estimate_usd": 0.0,
+  "llm_responses": [],
+  "analyzed_sources": [],
+  "competitor_insights": [],
+  "comparative_scores": {},
+  "keyword_analysis": {},
+  "sentiment_analysis": {}
+}

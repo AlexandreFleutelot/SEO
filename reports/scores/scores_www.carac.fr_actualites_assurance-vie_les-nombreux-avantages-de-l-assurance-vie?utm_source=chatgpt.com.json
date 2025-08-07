@@ -1,0 +1,99 @@
+{
+    "url": "https://www.carac.fr/actualites/assurance-vie/les-nombreux-avantages-de-l-assurance-vie?utm_source=chatgpt.com",
+    "analysis_date": "2025-08-07T14:20:49.341991",
+    "global_analysis": {
+        "global_score": 71.6,
+        "performance_level": "Bon",
+        "level_color": "yellow",
+        "strengths": [
+            "category_4_performance",
+            "category_1_content"
+        ],
+        "weaknesses": [
+            "category_5_aio",
+            "category_3_linking"
+        ],
+        "category_breakdown": {
+            "category_1_content": 86.5552,
+            "category_2_structure": 79.44545454545454,
+            "category_3_linking": 15.0,
+            "category_4_performance": 100.0,
+            "category_5_aio": 55.0,
+            "category_6_llm_analysis": 63.0
+        }
+    },
+    "category_scores": {
+        "content_semantics": {
+            "score": 86.6,
+            "details": {
+                "richness_score": 95.872,
+                "style_score": 100.0,
+                "sources_score": 64.0,
+                "freshness_score": 80,
+                "category_score": 86.5552
+            }
+        },
+        "technical_structure": {
+            "score": 79.4,
+            "details": {
+                "hn_score": 100.0,
+                "metadata_score": 84.6,
+                "images_score": 72.72727272727273,
+                "schema_score": 25,
+                "crawlability_score": 100.0,
+                "category_score": 79.44545454545454
+            }
+        },
+        "internal_linking": {
+            "score": 15.0,
+            "details": {
+                "internal_links_score": 0.0,
+                "anchor_diversity_score": 0,
+                "descriptive_anchors_score": 50,
+                "category_score": 15.0
+            }
+        },
+        "performance": {
+            "score": 100.0,
+            "details": {
+                "desktop_score": 100.0,
+                "mobile_score": 100.0,
+                "category_score": 100.0
+            }
+        },
+        "aio_optimization": {
+            "score": 55.0,
+            "details": {
+                "atomicity_score": 100,
+                "quantifiable_score": 100,
+                "expertise_score": 0,
+                "multimodal_score": 0,
+                "category_score": 55.0
+            }
+        },
+        "llm_analysis": {
+            "score": 63.0,
+            "details": {
+                "eat_score": 60,
+                "intent_score": 75.0,
+                "coverage_score": 65.0,
+                "ux_score": 60.0,
+                "snippet_score": 70,
+                "brand_score": 40.0,
+                "category_score": 63.0
+            }
+        }
+    },
+    "scoring_metadata": {
+        "scoring_version": "1.0",
+        "category_weights": {
+            "category_1_content": 0.25,
+            "category_2_structure": 0.2,
+            "category_3_linking": 0.15,
+            "category_4_performance": 0.2,
+            "category_5_aio": 0.1,
+            "category_6_llm_analysis": 0.1
+        },
+        "total_categories": 6
+    }
+}

@@ -1,0 +1,407 @@
+{
+    "url": "https://www.pretto.fr/acheteur-immobilier/primo-accedant/acheteur-immobilier-primo-accedant-acheter-en-aout-bonne-ou-mauvaise-idee/",
+    "analysis_results": {
+        "category_1_content": {
+            "1.1_richness_coverage": {
+                "word_count": 1691,
+                "entity_count": 90,
+                "entity_distribution": {
+                    "MISC": 37,
+                    "ORG": 5,
+                    "PER": 31,
+                    "LOC": 17
+                }
+            },
+            "1.2_style_clarity": {
+                "sentence_count": 132,
+                "avg_sentence_length_words": 14.848484848484848,
+                "list_count": 19,
+                "table_count": 0
+            },
+            "1.3_sources_reliability": {
+                "external_link_count": 34,
+                "external_links": [
+                    "https://app.pretto.fr/",
+                    "https://app.pretto.fr/login/",
+                    "https://app.pretto.fr/",
+                    "https://app.pretto.fr/login/",
+                    "https://app.pretto.fr/",
+                    "https://app.pretto.fr/",
+                    "https://fr.trustpilot.com/review/pretto.fr",
+                    "https://app.pretto.fr/login/",
+                    "https://courtier.pretto.fr/parcours-assurance-emprunteur?utm_source=webflow&utm_medium=assurance",
+                    "https://courtier.pretto.fr/parcours-assurance-emprunteur?utm_source=webflow&utm_medium=assurance"
+                ],
+                "textual_citation_count": 2
+            },
+            "1.4_freshness": {
+                "publication_date_meta": null,
+                "detected_dates_in_text": [
+                    "2042-08-07T00:00:00",
+                    "2032-08-07T00:00:00",
+                    "2025-09-23T00:00:00",
+                    "2025-08-23T00:00:00",
+                    "2025-08-17T00:00:00"
+                ],
+                "year_in_title_h1": null
+            }
+        },
+        "category_2_structure": {
+            "2.1_hn_structure": {
+                "h1_count": 1,
+                "headings_by_level": {
+                    "h1": [
+                        "Pourquoi août est le pire mois pour acheter ?"
+                    ],
+                    "h2": [
+                        "Sommaire",
+                        "Acheter en été, la fausse bonne idée",
+                        "C’est quand le bon moment ?"
+                    ],
+                    "h3": [
+                        "En mai, fais ce qu’il te plaît",
+                        "En décembre, la période parfaite pour la négociation",
+                        "Quelque chose à ajouter ?",
+                        "Laissez un commentaire, Pretto vous répondra !"
+                    ]
+                },
+                "hierarchy_issues": []
+            },
+            "2.2_metadata": {
+                "title": "Acheter en été : bonne ou mauvaise idée - Pretto",
+                "title_length": 48,
+                "meta_description": "Acheter en août : moins de choix, plus de curieux. Découvrez le meilleur moment pour acheter. On vous explique.",
+                "meta_description_length": 111
+            },
+            "2.3_images_optimization": {
+                "total_images": 15,
+                "images_with_alt": 12,
+                "alt_coverage_percentage": 80.0,
+                "images_with_figcaption": 0
+            },
+            "2.4_structured_data": {
+                "schema_count": 0,
+                "schema_types": []
+            },
+            "2.5_crawlability": {
+                "robots_txt_status": "found",
+                "sitemap_xml_status": "not_found"
+            }
+        },
+        "category_3_linking": {
+            "3.1_3.2_internal_linking": {
+                "internal_link_count": 8,
+                "anchor_text_diversity": 8,
+                "non_descriptive_anchor_count": 0,
+                "anchor_text_distribution": {
+                    "recherche du bien idéal": 1,
+                    "découvrir le marché": 1,
+                    "Pourquoi aime-t-on consulter des annonces immobilières alors qu'on n'a pas de projet d'achat ?": 1,
+                    "avant la rentrée scolaire": 1,
+                    "la masterclass disponible ici.": 1
+                }
+            }
+        },
+        "category_4_performance": {
+            "4.1_4.2_desktop_performance": {
+                "LCP_ms": 973,
+                "INP_ms": 51,
+                "CLS_score": 0.03,
+                "mobile_friendly_score": null
+            },
+            "4.1_4.2_mobile_performance": {
+                "LCP_ms": 1117,
+                "INP_ms": 87,
+                "CLS_score": 0.02,
+                "mobile_friendly_score": null
+            }
+        },
+        "category_5_aio": {
+            "5.1_atomicity_direct_answer": {
+                "potential_qa_pairs": 0,
+                "summary_block_count": 9
+            },
+            "5.2_quantifiable_data": {
+                "percentage_count": 0,
+                "currency_mention_count": 0,
+                "numeric_date_count": 9
+            },
+            "5.3_expertise_signals": {
+                "author_schema_present": false,
+                "about_page_linked": false
+            },
+            "5.4_multimodal_interoperability": {
+                "video_embed_count": 0,
+                "potential_api_link_count": 0
+            }
+        },
+        "category_6_llm_analysis": {
+            "6.1_content_quality_eat": {
+                "content_quality_score": 7,
+                "expertise_score": 7,
+                "authoritativeness_score": 6,
+                "trustworthiness_score": 7,
+                "overall_eat_score": 7,
+                "strengths": [
+                    "Provides practical advice on real estate buying during summer months.",
+                    "Includes data from previous years to support claims."
+                ],
+                "weaknesses": [
+                    "Lacks citations or references to authoritative sources.",
+                    "No clear author credentials or expertise mentioned."
+                ],
+                "recommendations": [
+                    "Include citations from real estate experts or studies to enhance authority.",
+                    "Add author bio to establish credibility and expertise."
+                ]
+            },
+            "6.2_search_intent": {
+                "primary_intent": "informational",
+                "secondary_intents": [
+                    "commercial",
+                    "transactional"
+                ],
+                "intent_fulfillment_score": 8,
+                "query_alignment_score": 7,
+                "target_keywords_identified": [
+                    "acheter en été",
+                    "primo-accédant",
+                    "acheter immobilier août"
+                ],
+                "user_satisfaction_potential": 8,
+                "content_intent_match": "good",
+                "recommendations": [
+                    "Include more actionable tips for buyers considering purchasing in August.",
+                    "Add a FAQ section addressing common concerns about buying in summer."
+                ]
+            },
+            "6.3_topical_coverage": {
+                "main_topic": "Buying Real Estate in Summer",
+                "topic_completeness_score": 7,
+                "semantic_richness_score": 6,
+                "subtopics_covered": [
+                    "Market activity in August",
+                    "Challenges of buying in summer",
+                    "Professional availability",
+                    "Buyer motivation"
+                ],
+                "missing_subtopics": [
+                    "Comparison with other seasons",
+                    "Financing options during summer",
+                    "Long-term investment strategies",
+                    "Impact of seasonal trends on pricing"
+                ],
+                "content_depth_level": "moderate",
+                "related_concepts_coverage": 5,
+                "keyword_context_relevance": 8,
+                "recommendations": [
+                    "Include a comparison of buying in summer versus other seasons.",
+                    "Expand on financing options available during summer months."
+                ]
+            },
+            "6.4_user_experience": {
+                "engagement_potential_score": 7,
+                "readability_score": 6,
+                "actionability_score": 5,
+                "content_structure_score": 6,
+                "cta_effectiveness_score": 7,
+                "user_journey_support_score": 6,
+                "reading_difficulty": "moderate",
+                "engagement_elements": [
+                    "informative headings",
+                    "call-to-action for app download"
+                ],
+                "improvement_areas": [
+                    "add bullet points for key takeaways",
+                    "include more examples or case studies"
+                ],
+                "recommendations": [
+                    "simplify language for broader audience appeal",
+                    "enhance visual elements to improve scanability"
+                ]
+            },
+            "6.5_featured_snippet_potential": {
+                "featured_snippet_potential": 7,
+                "direct_answer_suitability": 6,
+                "faq_format_potential": 5,
+                "list_format_suitability": 4,
+                "table_format_potential": 2,
+                "voice_search_optimization": 6,
+                "how_to_content_score": 3,
+                "snippet_ready_sections": [
+                    "Pourquoi août est le pire mois pour acheter ?",
+                    "Conseils pour acheter en été"
+                ],
+                "optimization_opportunities": [
+                    "Add bullet points for key reasons",
+                    "Include a FAQ section addressing common buyer concerns"
+                ],
+                "recommendations": [
+                    "Use more concise headings and subheadings",
+                    "Incorporate a summary box at the beginning of the article"
+                ]
+            },
+            "6.6_brand_communication": {
+                "tone_consistency_score": 8,
+                "brand_voice_clarity": 9,
+                "professional_presentation": 8,
+                "communication_clarity": 9,
+                "target_audience_alignment": 9,
+                "message_coherence": 8,
+                "tone_description": "authoritative",
+                "communication_strengths": [
+                    "Clear and informative messaging",
+                    "Strong alignment with target audience needs"
+                ],
+                "communication_weaknesses": [
+                    "Could benefit from a more engaging tone",
+                    "Limited emotional appeal"
+                ],
+                "recommendations": [
+                    "Incorporate more engaging and relatable language",
+                    "Add personal anecdotes or testimonials to enhance emotional connection"
+                ]
+            }
+        },
+        "enhanced_content_analysis": {
+            "1.1_informational_density": {
+                "total_entities": 90,
+                "entities_by_type": {
+                    "MISC": 29,
+                    "ORG": 5,
+                    "PER": 24,
+                    "LOC": 15
+                },
+                "entity_relations_count": 16,
+                "concept_coverage_score": 100,
+                "thematic_depth_score": 56.36363636363637,
+                "authority_links": [],
+                "informational_density_score": 90.0
+            },
+            "1.2_atomic_blocks": {
+                "qa_pairs_detected": 17,
+                "definitions_detected": 5,
+                "key_takeaways_blocks": 4,
+                "self_sufficient_lists": 1,
+                "atomic_blocks_total": 27,
+                "atomic_quality_score": 100,
+                "sample_definitions": [
+                    [
+                        "marché",
+                        "au ralenti et l’activité retombe."
+                    ],
+                    [
+                        "vendeurs",
+                        "moins nombreux, reportant souvent leurs projets à la rentrée."
+                    ],
+                    [
+                        "printemps",
+                        "donc LA période idéale pour acheter."
+                    ]
+                ],
+                "sample_takeaways": [
+                    "SommaireAcheter en été, la fausse bonne idéeC’est quand le bon moment ?",
+                    "Sommaire"
+                ]
+            },
+            "1.3_ai_generated_detection": {
+                "ai_generated_phrases_count": 0,
+                "detected_ai_patterns": [],
+                "repetitive_patterns_score": 10,
+                "mechanical_transitions_count": 1,
+                "info_density_ratio": 8.870490833826139,
+                "naturalness_score": 0,
+                "content_authenticity": "Probablement IA-généré"
+            },
+            "1.4_original_data": {
+                "percentage_data_points": 0,
+                "numeric_data_points": 0,
+                "internal_studies_references": 0,
+                "testimonials_case_studies": 0,
+                "recent_dates_count": 27,
+                "data_originality_score": 0,
+                "sample_percentages": [],
+                "sample_numeric_data": [],
+                "sample_internal_refs": []
+            },
+            "1.5_nap_consistency": {
+                "company_name": "Pretto",
+                "phone_numbers_found": 0,
+                "email_addresses_found": 0,
+                "physical_addresses_found": 2,
+                "structured_data_nap": false,
+                "nap_consistency_score": 50,
+                "sample_phones": [],
+                "sample_emails": [],
+                "sample_addresses": [
+                    "42 Rue de Paradis",
+                    "75010 Paris"
+                ]
+            }
+        },
+        "enhanced_structure_analysis": {
+            "2.1_ssr_javascript": {
+                "ssr_compatibility_score": 80,
+                "compatibility_level": "Excellent - Contenu entièrement accessible",
+                "critical_js_detected": 0,
+                "frameworks_detected": [],
+                "spa_indicators_count": 1,
+                "text_content_length": 10140,
+                "lazy_elements_count": 12,
+                "recommendations": []
+            },
+            "2.2_year_metadata": {
+                "title_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "title_text": "Acheter en été : bonne ou mauvaise idée - Pretto"
+                },
+                "meta_description_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "description_text": "Acheter en août : moins de choix, plus de curieux. Découvrez le meilleur moment pour acheter. On vous explique."
+                },
+                "headings_with_year_count": 0,
+                "freshness_score": 0,
+                "freshness_level": "Amélioration nécessaire",
+                "recommendations": [
+                    "Ajouter '2025' dans le titre de la page",
+                    "Inclure '2025' dans la meta description",
+                    "Mettre à jour régulièrement les dates dans le contenu",
+                    "Utiliser des expressions comme 'dernière mise à jour' avec l'année courante"
+                ]
+            },
+            "2.3_structured_data_relevance": {
+                "total_structured_schemas": 0,
+                "json_ld_count": 0,
+                "microdata_count": 0,
+                "rdfa_count": 0,
+                "schema_types_detected": [],
+                "schema_relevance_scores": {},
+                "average_relevance_score": 0,
+                "structured_data_quality_score": 0.0,
+                "recommended_missing_schemas": [
+                    "HowTo",
+                    "Organization"
+                ],
+                "schema_optimization_level": "Basique"
+            },
+            "2.4_llms_txt_status": {
+                "llms_txt_url": "https://www.pretto.fr/llms.txt",
+                "status": "not_found",
+                "content_length": 0,
+                "lines_count": 0,
+                "has_user_agent_directive": false,
+                "has_disallow_directive": false,
+                "has_allow_directive": false,
+                "has_crawl_delay": false,
+                "has_ai_specific_directives": false,
+                "current_effectiveness": "Sans objet",
+                "implementation_recommendation": "Le fichier llms.txt est une initiative expérimentale avec une efficacité actuellement très limitée. Sa mise en place peut être considérée comme une préparation pour l'avenir, mais ne doit pas être prioritaire.",
+                "sample_content": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "url": "https://www.ag2rlamondiale.fr/assurance-vie/conseil-quels-sont-les-avantages-d-une-assurance-vie",
+    "analysis_date": "2025-08-07T14:18:28.323805",
+    "global_analysis": {
+        "global_score": 73.4,
+        "performance_level": "Bon",
+        "level_color": "yellow",
+        "strengths": [
+            "category_3_linking",
+            "category_4_performance"
+        ],
+        "weaknesses": [
+            "category_1_content",
+            "category_5_aio"
+        ],
+        "category_breakdown": {
+            "category_1_content": 58.152,
+            "category_2_structure": 78.5,
+            "category_3_linking": 100.0,
+            "category_4_performance": 100.0,
+            "category_5_aio": 16.0,
+            "category_6_llm_analysis": 65.5
+        }
+    },
+    "category_scores": {
+        "content_semantics": {
+            "score": 58.2,
+            "details": {
+                "richness_score": 62.22,
+                "style_score": 86.0,
+                "sources_score": 35.5,
+                "freshness_score": 40,
+                "category_score": 58.152
+            }
+        },
+        "technical_structure": {
+            "score": 78.5,
+            "details": {
+                "hn_score": 100.0,
+                "metadata_score": 59.0,
+                "images_score": 100.0,
+                "schema_score": 25,
+                "crawlability_score": 100.0,
+                "category_score": 78.5
+            }
+        },
+        "internal_linking": {
+            "score": 100.0,
+            "details": {
+                "internal_links_score": 100,
+                "anchor_diversity_score": 100.0,
+                "descriptive_anchors_score": 100.0,
+                "category_score": 100.0
+            }
+        },
+        "performance": {
+            "score": 100.0,
+            "details": {
+                "desktop_score": 100.0,
+                "mobile_score": 100.0,
+                "category_score": 100.0
+            }
+        },
+        "aio_optimization": {
+            "score": 16.0,
+            "details": {
+                "atomicity_score": 0,
+                "quantifiable_score": 64,
+                "expertise_score": 0,
+                "multimodal_score": 0,
+                "category_score": 16.0
+            }
+        },
+        "llm_analysis": {
+            "score": 65.5,
+            "details": {
+                "eat_score": 70,
+                "intent_score": 75.0,
+                "coverage_score": 65.0,
+                "ux_score": 60.0,
+                "snippet_score": 70,
+                "brand_score": 40.0,
+                "category_score": 65.5
+            }
+        }
+    },
+    "scoring_metadata": {
+        "scoring_version": "1.0",
+        "category_weights": {
+            "category_1_content": 0.25,
+            "category_2_structure": 0.2,
+            "category_3_linking": 0.15,
+            "category_4_performance": 0.2,
+            "category_5_aio": 0.1,
+            "category_6_llm_analysis": 0.1
+        },
+        "total_categories": 6
+    }
+}

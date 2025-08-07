@@ -1,0 +1,99 @@
+{
+    "url": "https://www.meilleurtaux.com/credit-immobilier/actualites/2025-aout/ete-favorable-emprunteurs-immobiliers.html",
+    "analysis_date": "2025-08-07T11:13:42.740638",
+    "global_analysis": {
+        "global_score": 62.3,
+        "performance_level": "Bon",
+        "level_color": "yellow",
+        "strengths": [
+            "category_1_content",
+            "category_3_linking"
+        ],
+        "weaknesses": [
+            "category_5_aio",
+            "category_4_performance"
+        ],
+        "category_breakdown": {
+            "category_1_content": 83.45599999999999,
+            "category_2_structure": 67.93333333333334,
+            "category_3_linking": 75.17808219178082,
+            "category_4_performance": 30.0,
+            "category_5_aio": 37.0,
+            "category_6_llm_analysis": 69.0
+        }
+    },
+    "category_scores": {
+        "content_semantics": {
+            "score": 83.5,
+            "details": {
+                "richness_score": 84.16,
+                "style_score": 86.0,
+                "sources_score": 70.0,
+                "freshness_score": 100,
+                "category_score": 83.45599999999999
+            }
+        },
+        "technical_structure": {
+            "score": 67.9,
+            "details": {
+                "hn_score": 100.0,
+                "metadata_score": 59.4,
+                "images_score": 91.66666666666666,
+                "schema_score": 25,
+                "crawlability_score": 40.0,
+                "category_score": 67.93333333333334
+            }
+        },
+        "internal_linking": {
+            "score": 75.2,
+            "details": {
+                "internal_links_score": 40,
+                "anchor_diversity_score": 97.26027397260275,
+                "descriptive_anchors_score": 100.0,
+                "category_score": 75.17808219178082
+            }
+        },
+        "performance": {
+            "score": 30.0,
+            "details": {
+                "desktop_score": 100.0,
+                "mobile_score": 0,
+                "category_score": 30.0
+            }
+        },
+        "aio_optimization": {
+            "score": 37.0,
+            "details": {
+                "atomicity_score": 40,
+                "quantifiable_score": 50,
+                "expertise_score": 50,
+                "multimodal_score": 0,
+                "category_score": 37.0
+            }
+        },
+        "llm_analysis": {
+            "score": 69.0,
+            "details": {
+                "eat_score": 70,
+                "intent_score": 75.0,
+                "coverage_score": 75.0,
+                "ux_score": 70.0,
+                "snippet_score": 70,
+                "brand_score": 40.0,
+                "category_score": 69.0
+            }
+        }
+    },
+    "scoring_metadata": {
+        "scoring_version": "1.0",
+        "category_weights": {
+            "category_1_content": 0.25,
+            "category_2_structure": 0.2,
+            "category_3_linking": 0.15,
+            "category_4_performance": 0.2,
+            "category_5_aio": 0.1,
+            "category_6_llm_analysis": 0.1
+        },
+        "total_categories": 6
+    }
+}

@@ -1,0 +1,32 @@
+[project]
+name = "seo-analyzer"
+version = "0.1.0"
+description = "SEO analysis tool for comprehensive webpage analysis across content, structure, linking, performance, and AIO optimization"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.61.0",
+    "beautifulsoup4>=4.13.4",
+    "datefinder>=0.7.3",
+    "fr-core-news-sm",
+    "numpy>=2.3.2",
+    "openai>=1.99.1",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "spacy>=3.8.7",
+    "streamlit>=1.48.0",
+    "validators>=0.35.0",
+]
+
+[project.scripts]
+analyze = "src.page_analyzer:main"
+
+[tool.uv]
+dev-dependencies = []
+
+[tool.uv.sources]
+fr-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.8.0/fr_core_news_sm-3.8.0-py3-none-any.whl" }
+
+[project.optional-dependencies]
+dev = []

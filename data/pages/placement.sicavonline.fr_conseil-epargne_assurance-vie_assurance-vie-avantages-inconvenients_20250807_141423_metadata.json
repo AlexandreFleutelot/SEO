@@ -1,0 +1,28 @@
+{
+  "url": "https://www.placement.sicavonline.fr/conseil-epargne/assurance-vie/assurance-vie-avantages-inconvenients/?utm_source=chatgpt.com",
+  "download_date": "2025-08-07T14:14:23.042964",
+  "html_file": "placement.sicavonline.fr_conseil-epargne_assurance-vie_assurance-vie-avantages-inconvenients_20250807_141423.html",
+  "html_size_bytes": 153049,
+  "html_size_kb": 149.46,
+  "content_hash": "fc636f05bc1608e4995e3217e83f3467",
+  "response_headers": {
+    "Date": "Thu, 07 Aug 2025 12:14:23 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "34646",
+    "Connection": "keep-alive",
+    "Cache-Control": "private",
+    "Content-Encoding": "gzip",
+    "Set-Cookie": "ASP.NET_SessionId=py1ub1fokezupehkaeo2ebho; path=/; HttpOnly; SameSite=Lax, ARRAffinity=e4ba756d104eea1b647c6fad59ef79d124ded87f5318dbd22c51f1c8e201090d;Path=/;HttpOnly;Secure;Domain=sicavonline-web-prd.azurewebsites.net, ARRAffinitySameSite=e4ba756d104eea1b647c6fad59ef79d124ded87f5318dbd22c51f1c8e201090d;Path=/;HttpOnly;SameSite=None;Secure;Domain=sicavonline-web-prd.azurewebsites.net",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Content-Security-Policy": "default-src 'self' https: https://sicavonline-web-prd.azurewebsites.net/ https://security.sicavonline.fr                                     https://api.sicavonline.fr https://recette-placement.sicavonline.fr                                     *.placement.sicavonline.fr *.sicavonline.fr wss://ws.hotjar.com/api/v2/client/ws https://packages.umbraco.org https://our.umbraco.org https://www.youtube.com;                                   script-src 'self' https: 'unsafe-inline' 'unsafe-eval' https://www.google.com https://www.google.com/recaptcha/                                     https://www.gstatic.com/recaptcha/ https://www.googletagmanager.com/ https://kendo.cdn.telerik.com https://cdnjs.cloudflare.com                                   https://www.googleoptimize.com https://static.hotjar.com https://script.hotjar.com/ https://sdk.privacy-center.org                                     https://tag.aticdn.net/ https://snap.licdn.com https://www.dwin1.com/ https://connect.facebook.net https://www.google-analytics.com                                   https://app.pinput.co/ https://data.perfmaker.net/ https://tag.perfmaker.net/ https://code.jquery.com wss://ws.hotjar.com/api/v2/client/ws https://www.youtube.com;                                     style-src 'self' 'unsafe-inline' https://www.google.com https://fonts.googleapis.com https://kendo.cdn.telerik.com https://www.youtube.com/                                     https://cdnjs.cloudflare.com https://tag.perfmaker.net/ 'unsafe-inline'; frame-src 'self' https://www.google.com/ https://www.google.com/recaptcha/                                     https://www.facebook.com/ https://tag.perfmaker.net/ https://ad.ad-srv.net/ https://www.youtube.com ; img-src * 'self' data: https:;",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "x-azure-ref": "20250807T121422Z-18548c46669rl4s7hC1PARmhng00000005yg00000000hw96",
+    "X-Cache": "CONFIG_NOCACHE",
+    "Accept-Ranges": "bytes"
+  },
+  "domain": "www.placement.sicavonline.fr",
+  "path": "/conseil-epargne/assurance-vie/assurance-vie-avantages-inconvenients/"
+}

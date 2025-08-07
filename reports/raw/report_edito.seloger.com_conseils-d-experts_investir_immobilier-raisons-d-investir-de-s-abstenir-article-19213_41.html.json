@@ -1,0 +1,403 @@
+{
+    "url": "https://edito.seloger.com/conseils-d-experts/investir/immobilier-raisons-d-investir-de-s-abstenir-article-19213_41.html",
+    "analysis_results": {
+        "category_1_content": {
+            "1.1_richness_coverage": {
+                "word_count": 1373,
+                "entity_count": 48,
+                "entity_distribution": {
+                    "PER": 19,
+                    "MISC": 11,
+                    "ORG": 10,
+                    "LOC": 8
+                }
+            },
+            "1.2_style_clarity": {
+                "sentence_count": 106,
+                "avg_sentence_length_words": 15.160377358490566,
+                "list_count": 21,
+                "table_count": 1
+            },
+            "1.3_sources_reliability": {
+                "external_link_count": 89,
+                "external_links": [
+                    "https://www.seloger.com/vente.htm#?BD=Head_AC_1",
+                    "https://www.seloger.com/vente.htm#?BD=Head_AC_1",
+                    "https://www.seloger.com/vente.htm#?BD=Head_AC_Vente_2",
+                    "https://www.selogerneuf.com/#?CMP=INT-HeadSL-AC9",
+                    "https://www.bellesdemeures.com/#?CMP=INT_SL_Header",
+                    "https://www.seloger.com/construire/#?CMP=INT_Head_AC_CMI_5",
+                    "https://www.seloger.com/viagers.htm#?BD=Head_AC_Viager_6",
+                    "https://www.agorabiz.com/#?CMP=INT_Head_AC_Bureau_7",
+                    "https://www.seloger.com/estimation-immobiliere.html#?BD=Head_AC_Esti_10",
+                    "https://www.seloger.com/prix-de-l-immo/vente/pays/france.htm#?BD=Head_AC_PrixImm_8"
+                ],
+                "textual_citation_count": 4
+            },
+            "1.4_freshness": {
+                "publication_date_meta": null,
+                "detected_dates_in_text": [
+                    "2070-03-07T00:00:00",
+                    "2067-03-07T00:00:00",
+                    "2050-08-07T00:00:00",
+                    "2035-08-07T00:00:00",
+                    "2032-08-07T00:00:00"
+                ],
+                "year_in_title_h1": "2025"
+            }
+        },
+        "category_2_structure": {
+            "2.1_hn_structure": {
+                "h1_count": 1,
+                "headings_by_level": {
+                    "h1": [
+                        "Immobilier 2025 : pourquoi investir maintenant — et quand il vaut mieux patienter"
+                    ],
+                    "h2": [
+                        "Un gage de sécurité et des risques financiers",
+                        "Des revenus passifs mais un prêt à rembourser",
+                        "Des avantages fiscaux mais les contraintes de gestion"
+                    ],
+                    "h3": [
+                        "1. Investir",
+                        "2. S'abstenir",
+                        "1. Investir",
+                        "2. S'abstenir",
+                        "1. Investir",
+                        "2. S'abstenir",
+                        "Pouvez-vous nous préciser pourquoi ?(facultatif)"
+                    ]
+                },
+                "hierarchy_issues": []
+            },
+            "2.2_metadata": {
+                "title": "Immobilier 2025 : pourquoi investir maintenant — et quand il vaut mieux patienter | L'immobilier par SeLoger",
+                "title_length": 108,
+                "meta_description": "Dans un contexte d'incertitudes et de crise, être propriétaire d'un bien immobilier apparaît comme une garantie. Mais seriez-vous prêts à y investir une forte somme d'argent ? Avec des prix immobiliers encore hauts et des taux de crédit nettement plus élevés qu'il y a trois ans, vous pouvez parfaitement hésiter comme saisir ces opportunités. SeLoger vous explique quelles sont, dans l’immobilier, les meilleures raisons d’investir ou de s’abstenir.",
+                "meta_description_length": 450
+            },
+            "2.3_images_optimization": {
+                "total_images": 19,
+                "images_with_alt": 18,
+                "alt_coverage_percentage": 94.73684210526315,
+                "images_with_figcaption": 0
+            },
+            "2.4_structured_data": {
+                "schema_count": 0,
+                "schema_types": []
+            },
+            "2.5_crawlability": {
+                "robots_txt_status": "found",
+                "sitemap_xml_status": "found"
+            }
+        },
+        "category_3_linking": {
+            "3.1_3.2_internal_linking": {
+                "internal_link_count": 31,
+                "anchor_text_diversity": 29,
+                "non_descriptive_anchor_count": 0,
+                "anchor_text_distribution": {
+                    "investissement locatif": 2,
+                    "Investir": 1,
+                    "Quentin Gres": 1,
+                    "taux de la Banque centrale européenne": 1,
+                    "la loi Pinel": 1
+                }
+            }
+        },
+        "category_4_performance": {
+            "4.1_4.2_desktop_performance": {
+                "LCP_ms": 1675,
+                "INP_ms": 72,
+                "CLS_score": 0.02,
+                "mobile_friendly_score": null
+            },
+            "4.1_4.2_mobile_performance": {
+                "LCP_ms": 1556,
+                "INP_ms": 285,
+                "CLS_score": 0.0,
+                "mobile_friendly_score": null
+            }
+        },
+        "category_5_aio": {
+            "5.1_atomicity_direct_answer": {
+                "potential_qa_pairs": 6,
+                "summary_block_count": 0
+            },
+            "5.2_quantifiable_data": {
+                "percentage_count": 0,
+                "currency_mention_count": 4,
+                "numeric_date_count": 11
+            },
+            "5.3_expertise_signals": {
+                "author_schema_present": false,
+                "about_page_linked": false
+            },
+            "5.4_multimodal_interoperability": {
+                "video_embed_count": 0,
+                "potential_api_link_count": 0
+            }
+        },
+        "category_6_llm_analysis": {
+            "6.1_content_quality_eat": {
+                "content_quality_score": 7,
+                "expertise_score": 6,
+                "authoritativeness_score": 7,
+                "trustworthiness_score": 8,
+                "overall_eat_score": 7,
+                "strengths": [
+                    "Provides relevant and timely information regarding real estate investment.",
+                    "Cites recent data and statistics to support claims."
+                ],
+                "weaknesses": [
+                    "Lacks detailed author credentials which can enhance perceived expertise.",
+                    "Limited citations of reputable sources for claims made."
+                ],
+                "recommendations": [
+                    "Include author bio with credentials to enhance expertise.",
+                    "Add more citations from reputable sources to strengthen authority."
+                ]
+            },
+            "6.2_search_intent": {
+                "primary_intent": "informational",
+                "secondary_intents": [
+                    "commercial",
+                    "transactional"
+                ],
+                "intent_fulfillment_score": 8,
+                "query_alignment_score": 7,
+                "target_keywords_identified": [
+                    "investir immobilier",
+                    "raisons d'investir",
+                    "marché immobilier 2025"
+                ],
+                "user_satisfaction_potential": 8,
+                "content_intent_match": "good",
+                "recommendations": [
+                    "Include more specific data or case studies to enhance credibility.",
+                    "Add clear call-to-action buttons for users interested in property investment services."
+                ]
+            },
+            "6.3_topical_coverage": {
+                "main_topic": "Investing in Real Estate in 2025",
+                "topic_completeness_score": 7,
+                "semantic_richness_score": 6,
+                "subtopics_covered": [
+                    "Reasons to invest in real estate",
+                    "Risks of investing in real estate",
+                    "Market trends and pricing",
+                    "Investment strategies"
+                ],
+                "missing_subtopics": [
+                    "Financing options for real estate investment",
+                    "Long-term vs short-term investment strategies",
+                    "Impact of economic factors on real estate",
+                    "Regional market analysis"
+                ],
+                "content_depth_level": "moderate",
+                "related_concepts_coverage": 6,
+                "keyword_context_relevance": 8,
+                "recommendations": [
+                    "Include more detailed analysis of financing options for potential investors.",
+                    "Expand on regional market trends and comparisons to provide a broader perspective."
+                ]
+            },
+            "6.4_user_experience": {
+                "engagement_potential_score": 7,
+                "readability_score": 6,
+                "actionability_score": 5,
+                "content_structure_score": 6,
+                "cta_effectiveness_score": 4,
+                "user_journey_support_score": 5,
+                "reading_difficulty": "moderate",
+                "engagement_elements": [
+                    "informative headings",
+                    "data-backed insights"
+                ],
+                "improvement_areas": [
+                    "clarity of calls-to-action",
+                    "use of bullet points for key information"
+                ],
+                "recommendations": [
+                    "Add clear calls-to-action at the end of sections",
+                    "Incorporate bullet points for easier scanning of key reasons"
+                ]
+            },
+            "6.5_featured_snippet_potential": {
+                "featured_snippet_potential": 7,
+                "direct_answer_suitability": 6,
+                "faq_format_potential": 5,
+                "list_format_suitability": 8,
+                "table_format_potential": 3,
+                "voice_search_optimization": 6,
+                "how_to_content_score": 4,
+                "snippet_ready_sections": [
+                    "Investir",
+                    "S'abstenir"
+                ],
+                "optimization_opportunities": [
+                    "Add bullet points for key reasons",
+                    "Include a summary table of pros and cons"
+                ],
+                "recommendations": [
+                    "Create a dedicated FAQ section addressing common investment questions",
+                    "Use clear headings and subheadings for better skimming and scanning"
+                ]
+            },
+            "6.6_brand_communication": {
+                "tone_consistency_score": 8,
+                "brand_voice_clarity": 7,
+                "professional_presentation": 8,
+                "communication_clarity": 7,
+                "target_audience_alignment": 9,
+                "message_coherence": 8,
+                "tone_description": "authoritative",
+                "communication_strengths": [
+                    "Informative content",
+                    "Strong alignment with target audience"
+                ],
+                "communication_weaknesses": [
+                    "Occasional jargon usage",
+                    "Complex sentence structures"
+                ],
+                "recommendations": [
+                    "Simplify language for broader accessibility",
+                    "Use bullet points for key takeaways"
+                ]
+            }
+        },
+        "enhanced_content_analysis": {
+            "1.1_informational_density": {
+                "total_entities": 48,
+                "entities_by_type": {
+                    "PER": 18,
+                    "MISC": 10,
+                    "ORG": 8,
+                    "LOC": 7
+                },
+                "entity_relations_count": 7,
+                "concept_coverage_score": 93.75,
+                "thematic_depth_score": 59.62264150943396,
+                "authority_links": [],
+                "informational_density_score": 88.75
+            },
+            "1.2_atomic_blocks": {
+                "qa_pairs_detected": 3,
+                "definitions_detected": 1,
+                "key_takeaways_blocks": 0,
+                "self_sufficient_lists": 0,
+                "atomic_blocks_total": 4,
+                "atomic_quality_score": 15,
+                "sample_definitions": [
+                    [
+                        "baisse",
+                        "enclenchée mais rien ne prédit que l'emprunt reviendra à des pourcentage d'intérêts de 1 %, comme en début 2022."
+                    ]
+                ],
+                "sample_takeaways": []
+            },
+            "1.3_ai_generated_detection": {
+                "ai_generated_phrases_count": 1,
+                "detected_ai_patterns": [
+                    "il faut savoir que"
+                ],
+                "repetitive_patterns_score": 0,
+                "mechanical_transitions_count": 4,
+                "info_density_ratio": 12.454479242534596,
+                "naturalness_score": 87,
+                "content_authenticity": "Naturel"
+            },
+            "1.4_original_data": {
+                "percentage_data_points": 0,
+                "numeric_data_points": 5,
+                "internal_studies_references": 0,
+                "testimonials_case_studies": 0,
+                "recent_dates_count": 43,
+                "data_originality_score": 15,
+                "sample_percentages": [],
+                "sample_numeric_data": [
+                    "000 €",
+                    "067 €",
+                    "350 €",
+                    "000 €",
+                    "000 euros"
+                ],
+                "sample_internal_refs": []
+            },
+            "1.5_nap_consistency": {
+                "company_name": "",
+                "phone_numbers_found": 0,
+                "email_addresses_found": 0,
+                "physical_addresses_found": 0,
+                "structured_data_nap": false,
+                "nap_consistency_score": 0,
+                "sample_phones": [],
+                "sample_emails": [],
+                "sample_addresses": []
+            }
+        },
+        "enhanced_structure_analysis": {
+            "2.1_ssr_javascript": {
+                "ssr_compatibility_score": 80,
+                "compatibility_level": "Excellent - Contenu entièrement accessible",
+                "critical_js_detected": 0,
+                "frameworks_detected": [],
+                "spa_indicators_count": 1,
+                "text_content_length": 9075,
+                "lazy_elements_count": 9,
+                "recommendations": []
+            },
+            "2.2_year_metadata": {
+                "title_analysis": {
+                    "has_current_year": true,
+                    "has_recent_year": true,
+                    "has_any_year": true,
+                    "title_text": "Immobilier 2025 : pourquoi investir maintenant — et quand il vaut mieux patienter | L'immobilier par..."
+                },
+                "meta_description_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "description_text": "Dans un contexte d'incertitudes et de crise, être propriétaire d'un bien immobilier apparaît comme une garantie. Mais seriez-vous prêts à y investir u..."
+                },
+                "headings_with_year_count": 1,
+                "freshness_score": 50,
+                "freshness_level": "Très bon",
+                "recommendations": [
+                    "Inclure '2025' dans la meta description",
+                    "Mettre à jour régulièrement les dates dans le contenu",
+                    "Utiliser des expressions comme 'dernière mise à jour' avec l'année courante"
+                ]
+            },
+            "2.3_structured_data_relevance": {
+                "total_structured_schemas": 0,
+                "json_ld_count": 0,
+                "microdata_count": 0,
+                "rdfa_count": 0,
+                "schema_types_detected": [],
+                "schema_relevance_scores": {},
+                "average_relevance_score": 0,
+                "structured_data_quality_score": 0.0,
+                "recommended_missing_schemas": [
+                    "Article",
+                    "Organization"
+                ],
+                "schema_optimization_level": "Basique"
+            },
+            "2.4_llms_txt_status": {
+                "llms_txt_url": "https://edito.seloger.com/llms.txt",
+                "status": "not_found",
+                "content_length": 0,
+                "lines_count": 0,
+                "has_user_agent_directive": false,
+                "has_disallow_directive": false,
+                "has_allow_directive": false,
+                "has_crawl_delay": false,
+                "has_ai_specific_directives": false,
+                "current_effectiveness": "Sans objet",
+                "implementation_recommendation": "Le fichier llms.txt est une initiative expérimentale avec une efficacité actuellement très limitée. Sa mise en place peut être considérée comme une préparation pour l'avenir, mais ne doit pas être prioritaire.",
+                "sample_content": ""
+            }
+        }
+    }
+}

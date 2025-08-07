@@ -1,0 +1,92 @@
+{
+    "url": "https://httpbin.org/html",
+    "analysis_date": "2025-08-07T14:28:08.352137",
+    "global_analysis": {
+        "global_score": 45.1,
+        "performance_level": "Moyen",
+        "level_color": "orange",
+        "strengths": [
+            "category_4_performance"
+        ],
+        "weaknesses": [
+            "category_5_aio",
+            "category_6_llm_analysis"
+        ],
+        "category_breakdown": {
+            "category_1_content": 59.635,
+            "category_2_structure": 59.25,
+            "category_3_linking": 15.0,
+            "category_4_performance": 80.582,
+            "category_5_aio": 0.0,
+            "category_6_llm_analysis": 0
+        }
+    },
+    "category_scores": {
+        "content_semantics": {
+            "score": 59.6,
+            "details": {
+                "richness_score": 76.1,
+                "style_score": 70.0,
+                "sources_score": 14.0,
+                "freshness_score": 80,
+                "category_score": 59.635
+            }
+        },
+        "technical_structure": {
+            "score": 59.2,
+            "details": {
+                "hn_score": 100.0,
+                "metadata_score": 18.0,
+                "images_score": 100,
+                "schema_score": 25,
+                "crawlability_score": 40.0,
+                "category_score": 59.25
+            }
+        },
+        "internal_linking": {
+            "score": 15.0,
+            "details": {
+                "internal_links_score": 0.0,
+                "anchor_diversity_score": 0,
+                "descriptive_anchors_score": 50,
+                "category_score": 15.0
+            }
+        },
+        "performance": {
+            "score": 80.6,
+            "details": {
+                "desktop_score": 100.0,
+                "mobile_score": 72.26,
+                "category_score": 80.582
+            }
+        },
+        "aio_optimization": {
+            "score": 0.0,
+            "details": {
+                "atomicity_score": 0,
+                "quantifiable_score": 0,
+                "expertise_score": 0,
+                "multimodal_score": 0,
+                "category_score": 0.0
+            }
+        },
+        "llm_analysis": {
+            "score": 0,
+            "details": {
+                "category_score": 0
+            }
+        }
+    },
+    "scoring_metadata": {
+        "scoring_version": "1.0",
+        "category_weights": {
+            "category_1_content": 0.25,
+            "category_2_structure": 0.2,
+            "category_3_linking": 0.15,
+            "category_4_performance": 0.2,
+            "category_5_aio": 0.1,
+            "category_6_llm_analysis": 0.1
+        },
+        "total_categories": 6
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "url": "https://edito.seloger.com/conseils-d-experts/investir/immobilier-raisons-d-investir-de-s-abstenir-article-19213_41.html",
+    "analysis_date": "2025-08-07T11:56:03.295068",
+    "global_analysis": {
+        "global_score": 76.6,
+        "performance_level": "Très bon",
+        "level_color": "lightgreen",
+        "strengths": [
+            "category_4_performance",
+            "category_3_linking"
+        ],
+        "weaknesses": [
+            "category_5_aio"
+        ],
+        "category_breakdown": {
+            "category_1_content": 76.95100000000001,
+            "category_2_structure": 67.69736842105263,
+            "category_3_linking": 89.26451612903226,
+            "category_4_performance": 96.69444444444444,
+            "category_5_aio": 45.5,
+            "category_6_llm_analysis": 65.5
+        }
+    },
+    "category_scores": {
+        "content_semantics": {
+            "score": 77.0,
+            "details": {
+                "richness_score": 89.86000000000001,
+                "style_score": 100.0,
+                "sources_score": 58.0,
+                "freshness_score": 40,
+                "category_score": 76.95100000000001
+            }
+        },
+        "technical_structure": {
+            "score": 67.7,
+            "details": {
+                "hn_score": 100.0,
+                "metadata_score": 20.0,
+                "images_score": 94.73684210526315,
+                "schema_score": 25,
+                "crawlability_score": 100.0,
+                "category_score": 67.69736842105263
+            }
+        },
+        "internal_linking": {
+            "score": 89.3,
+            "details": {
+                "internal_links_score": 78,
+                "anchor_diversity_score": 93.54838709677419,
+                "descriptive_anchors_score": 100.0,
+                "category_score": 89.26451612903226
+            }
+        },
+        "performance": {
+            "score": 96.7,
+            "details": {
+                "desktop_score": 100.0,
+                "mobile_score": 95.27777777777777,
+                "category_score": 96.69444444444444
+            }
+        },
+        "aio_optimization": {
+            "score": 45.5,
+            "details": {
+                "atomicity_score": 100,
+                "quantifiable_score": 62,
+                "expertise_score": 0,
+                "multimodal_score": 0,
+                "category_score": 45.5
+            }
+        },
+        "llm_analysis": {
+            "score": 65.5,
+            "details": {
+                "eat_score": 70,
+                "intent_score": 75.0,
+                "coverage_score": 65.0,
+                "ux_score": 60.0,
+                "snippet_score": 70,
+                "brand_score": 40.0,
+                "category_score": 65.5
+            }
+        }
+    },
+    "scoring_metadata": {
+        "scoring_version": "1.0",
+        "category_weights": {
+            "category_1_content": 0.25,
+            "category_2_structure": 0.2,
+            "category_3_linking": 0.15,
+            "category_4_performance": 0.2,
+            "category_5_aio": 0.1,
+            "category_6_llm_analysis": 0.1
+        },
+        "total_categories": 6
+    }
+}

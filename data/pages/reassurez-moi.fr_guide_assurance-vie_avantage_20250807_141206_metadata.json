@@ -1,0 +1,27 @@
+{
+  "url": "https://reassurez-moi.fr/guide/assurance-vie/avantage?utm_source=chatgpt.com",
+  "download_date": "2025-08-07T14:12:06.641278",
+  "html_file": "reassurez-moi.fr_guide_assurance-vie_avantage_20250807_141206.html",
+  "html_size_bytes": 234719,
+  "html_size_kb": 229.22,
+  "content_hash": "5f79d07ac49273ff355ad68392dd7396",
+  "response_headers": {
+    "Age": "0",
+    "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Thu, 07 Aug 2025 12:12:06 GMT",
+    "Link": "</_next/static/media/0484562807a97172-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/4c285fdca692ea22-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/7db6c35d839a711c-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/b957ea75a84b6ea7-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/eafabf029ad39a43-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/81c4c903ff27e6dd.css>; rel=preload; as=\"style\", </_next/static/css/42c31a7a51fd0cc5.css>; rel=preload; as=\"style\", </_next/static/css/b6323009d4472833.css>; rel=preload; as=\"style\", </_next/static/css/611bf180583fed61.css>; rel=preload; as=\"style\", </_next/static/css/d8f808aff458f288.css>; rel=preload; as=\"style\"",
+    "Server": "Vercel",
+    "Set-Cookie": "gbuuid=7d3abeaf-c97f-404c-bd73-6a36de81d8a3; Path=/, rm_user_token=aae188d0-5686-43d0-9fc4-8fb33005bdef; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, rm_user_referer=(direct); Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, rm_user_entry_page=https%3A%2F%2Freassurez-moi.fr%2Fguide%2Fassurance-vie%2Favantage%3Futm_source%3Dchatgpt.com; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, rm_user_ip=90.46.5.203; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, utm_tracking_token=aae188d0-5686-43d0-9fc4-8fb33005bdef; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, rm_source=chatgpt.com; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, rm_gclid=; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, rm_utm_source=chatgpt.com; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, rm_utm_campaign=; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, rm_utm_medium=; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure, rm_click_id=; Path=/; Expires=Sat, 06 Sep 2025 12:12:06 GMT; Max-Age=2592000; Domain=.reassurez-moi.fr; Secure",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "X-Matched-Path": "/guide/[...slug]",
+    "X-Powered-By": "Next.js",
+    "X-Vercel-Cache": "MISS",
+    "X-Vercel-Id": "cdg1::cdg1::dflk9-1754568726388-3d19d4cd9fe9",
+    "Transfer-Encoding": "chunked"
+  },
+  "domain": "reassurez-moi.fr",
+  "path": "/guide/assurance-vie/avantage"
+}

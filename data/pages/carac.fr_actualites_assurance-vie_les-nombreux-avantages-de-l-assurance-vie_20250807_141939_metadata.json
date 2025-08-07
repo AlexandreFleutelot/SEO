@@ -1,0 +1,28 @@
+{
+  "url": "https://www.carac.fr/actualites/assurance-vie/les-nombreux-avantages-de-l-assurance-vie?utm_source=chatgpt.com",
+  "download_date": "2025-08-07T14:19:39.777272",
+  "html_file": "carac.fr_actualites_assurance-vie_les-nombreux-avantages-de-l-assurance-vie_20250807_141939.html",
+  "html_size_bytes": 91882,
+  "html_size_kb": 89.73,
+  "content_hash": "81c6684da7b306f76681a7517e60cec6",
+  "response_headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Thu, 07 Aug 2025 12:19:39 GMT",
+    "Content-Encoding": "gzip",
+    "Set-Cookie": "ARRAffinity=18aa9b956b759d7fce67e5860a504be0dbb6c10bfa0a41266ee06792f8174f02;Path=/;HttpOnly;Secure;Domain=www.carac.fr, ARRAffinitySameSite=18aa9b956b759d7fce67e5860a504be0dbb6c10bfa0a41266ee06792f8174f02;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.carac.fr",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Request-Context": "appId=cid-v1:ad75140d-6a11-46b3-859d-d5b76fff3718",
+    "X-Powered-By": "OrchardCore",
+    "Cross-Origin-Embedder-Policy": "unsafe-none",
+    "Cross-Origin-Resource-Policy": "cross-origin",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Content-Security-Policy": "font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com,form-action 'self',frame-ancestors 'self',frame-src same-origin https://platform.twitter.com/ https://www.youtube.c/om/ https://www.youtube-nocookie.com/ https://cdn.facil-iti.app/ https://web-service.facil-iti.app/  https://carac-rh.my.salesforce-sites.com/ https://www.googletagmanager.com/,img-src 'self' data: w3.org/svg/2000 https://px.ads.linkedin.com https://www.facebook.com https://widgets.custplace.com/ https://www.carac.fr https://unpkg.com https://tile.openstreetmap.org https://img.youtube.com,script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: https://px.ads.linkedin.com https://platform.linkedin.com https://snap.licdn.com https://cdn.jsdelivr.net https://unpkg.com https://widgets.custplace.com https://cdnjs.cloudflare.com https://www.googletagmanager.com https://tag.aticdn.net https://cdn.facil-iti.app https://connect.facebook.net https://platform.twitter.com https://tool.valorimetre.com,style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://fonts.googleapis.com",
+    "X-Content-Type-Options": "nosniff",
+    "Permissions-Policy": "fullscreen=self,geolocation=self",
+    "Referrer-Policy": "same-origin"
+  },
+  "domain": "www.carac.fr",
+  "path": "/actualites/assurance-vie/les-nombreux-avantages-de-l-assurance-vie"
+}

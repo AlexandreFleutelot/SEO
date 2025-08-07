@@ -1,0 +1,98 @@
+{
+    "url": "https://www.pretto.fr/acheteur-immobilier/primo-accedant/acheteur-immobilier-primo-accedant-acheter-en-aout-bonne-ou-mauvaise-idee/",
+    "analysis_date": "2025-08-07T11:45:22.332127",
+    "global_analysis": {
+        "global_score": 79.8,
+        "performance_level": "Très bon",
+        "level_color": "lightgreen",
+        "strengths": [
+            "category_3_linking",
+            "category_4_performance"
+        ],
+        "weaknesses": [
+            "category_5_aio"
+        ],
+        "category_breakdown": {
+            "category_1_content": 84.4522,
+            "category_2_structure": 68.3,
+            "category_3_linking": 100.0,
+            "category_4_performance": 100.0,
+            "category_5_aio": 34.5,
+            "category_6_llm_analysis": 65.5
+        }
+    },
+    "category_scores": {
+        "content_semantics": {
+            "score": 84.5,
+            "details": {
+                "richness_score": 96.292,
+                "style_score": 100.0,
+                "sources_score": 43.0,
+                "freshness_score": 100,
+                "category_score": 84.4522
+            }
+        },
+        "technical_structure": {
+            "score": 68.3,
+            "details": {
+                "hn_score": 100.0,
+                "metadata_score": 70.2,
+                "images_score": 80.0,
+                "schema_score": 25,
+                "crawlability_score": 40.0,
+                "category_score": 68.3
+            }
+        },
+        "internal_linking": {
+            "score": 100.0,
+            "details": {
+                "internal_links_score": 100,
+                "anchor_diversity_score": 100.0,
+                "descriptive_anchors_score": 100.0,
+                "category_score": 100.0
+            }
+        },
+        "performance": {
+            "score": 100.0,
+            "details": {
+                "desktop_score": 100.0,
+                "mobile_score": 100.0,
+                "category_score": 100.0
+            }
+        },
+        "aio_optimization": {
+            "score": 34.5,
+            "details": {
+                "atomicity_score": 100,
+                "quantifiable_score": 18,
+                "expertise_score": 0,
+                "multimodal_score": 0,
+                "category_score": 34.5
+            }
+        },
+        "llm_analysis": {
+            "score": 65.5,
+            "details": {
+                "eat_score": 70,
+                "intent_score": 75.0,
+                "coverage_score": 65.0,
+                "ux_score": 60.0,
+                "snippet_score": 70,
+                "brand_score": 40.0,
+                "category_score": 65.5
+            }
+        }
+    },
+    "scoring_metadata": {
+        "scoring_version": "1.0",
+        "category_weights": {
+            "category_1_content": 0.25,
+            "category_2_structure": 0.2,
+            "category_3_linking": 0.15,
+            "category_4_performance": 0.2,
+            "category_5_aio": 0.1,
+            "category_6_llm_analysis": 0.1
+        },
+        "total_categories": 6
+    }
+}

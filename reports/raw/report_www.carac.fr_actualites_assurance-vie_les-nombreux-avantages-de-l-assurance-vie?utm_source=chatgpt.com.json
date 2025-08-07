@@ -1,0 +1,418 @@
+{
+    "url": "https://www.carac.fr/actualites/assurance-vie/les-nombreux-avantages-de-l-assurance-vie?utm_source=chatgpt.com",
+    "analysis_results": {
+        "category_1_content": {
+            "1.1_richness_coverage": {
+                "word_count": 1656,
+                "entity_count": 81,
+                "entity_distribution": {
+                    "PER": 14,
+                    "MISC": 31,
+                    "ORG": 21,
+                    "LOC": 15
+                }
+            },
+            "1.2_style_clarity": {
+                "sentence_count": 117,
+                "avg_sentence_length_words": 17.11965811965812,
+                "list_count": 43,
+                "table_count": 2
+            },
+            "1.3_sources_reliability": {
+                "external_link_count": 14,
+                "external_links": [
+                    "https://espaceadherent.carac.fr/",
+                    "https://espaceadherent.carac.fr/",
+                    "https://diagnosticretraite-carac.harvest.fr/efuturis/efuturis/enter",
+                    "https://calculette-carac.harvest.fr/sob/",
+                    "https://fr-fr.facebook.com/pages/Carac/94327709892",
+                    "https://twitter.com/carac_epargne",
+                    "https://www.youtube.com/user/CaracEpargne",
+                    "https://www.instagram.com/carac.epargne/",
+                    "https://www.linkedin.com/company/carac/",
+                    "https://twitter.com/carac_epargne"
+                ],
+                "textual_citation_count": 2
+            },
+            "1.4_freshness": {
+                "publication_date_meta": null,
+                "detected_dates_in_text": [
+                    "2070-08-07T00:00:00",
+                    "2070-08-07T00:00:00",
+                    "2050-02-07T00:00:00",
+                    "2025-09-27T00:00:00",
+                    "2025-09-27T00:00:00"
+                ],
+                "year_in_title_h1": null
+            }
+        },
+        "category_2_structure": {
+            "2.1_hn_structure": {
+                "h1_count": 1,
+                "headings_by_level": {
+                    "h1": [
+                        "Les nombreux avantages de l’assurance vie"
+                    ],
+                    "h2": [
+                        "",
+                        "Comment fonctionne l’assurance vie ?",
+                        "Quels sont les avantages de l’assurance vie ?",
+                        "Les avantages de l’assurance vie en matière de succession",
+                        "Quel intérêt de souscrire un contrat d’assurance vie ?",
+                        "Nous Contacter",
+                        "Des solutions d’épargne et de retraite performantes et solidaires"
+                    ],
+                    "h3": [
+                        "Auprès de qui souscrire une assurance vie ?",
+                        "Assurance vie, deux types de contrat",
+                        "Un placement souple",
+                        "Un placement « liquide »",
+                        "Un placement garanti",
+                        "Un placement peu imposé",
+                        "",
+                        "Un placement rémunérateur",
+                        "La clause bénéficiaire de l’assurance vie",
+                        "Des abattements importants grâce à l’assurance vie",
+                        "Assurance-vie et fiscalité au décès : comment ça marche ?",
+                        "Mon service militaire n'apparaît pas dans ma retraite : comment faire valoir vos droits ?",
+                        "Épargner pour votre retraite",
+                        "Recevoir le guide gratuitRetraite Mutualiste du Combattant - Edition 2025"
+                    ],
+                    "h4": [
+                        "Fiscalité des gains issus des primes versées avant le 27 septembre 2017",
+                        "ÂGE DU CONTRATMOINS DE 4 ANSENTRE 4 ET 8 ANSPLUS DE 8 ANSImpôt sur le revenuBarème progressif de l’IR(1)ou PFL(2)à 35%Barème progressif de l’IR(1)ou PFL(2)à 15%Barème progressif de l’IR(1)ou PFL(2)à 7,5% après application de l’abattement annuel de 4.600 euros ou de 9.200 eurosPrélèvements sociaux17,2%17,2%17,2%(1)IR : impôt sur le revenu(2)PFL : prélèvement forfaitaire libératoire",
+                        "",
+                        "Fiscalité des gains issus des primes versées après le 27 septembre 2017",
+                        "ÂGE DU CONTRATMOINS DE 4 ANSENTRE 4 ET 8 ANSPLUS DE 8 ANSImpôt sur le revenuPFO(1)à 12,8% ou barème progressif de l’IR(2)PFO(1)à 12,8% ou barème progressif de l’IR(2)PF(3)à 7,5% pour les intérêts correspondant aux primes n’excédant pas 150 000 € et de 12,8% pour les intérêts correspondant aux primes excédant 150 000 € ou barème progressif à l’IR après application de l’abattement annuel de 4.600 euros ou de 9.200 eurosPrélèvements sociaux17,2%17,2%17,2%",
+                        "(1)PFO : prélèvement forfaitaire obligatoire",
+                        "(2)IR : impôt sur le revenu",
+                        "(3)PF : prélèvement forfaitaire"
+                    ]
+                },
+                "hierarchy_issues": []
+            },
+            "2.2_metadata": {
+                "title": "Quels sont les avantages de l&#039;assurance vie ?",
+                "title_length": 50,
+                "meta_description": "Souple, liquide, garanti, rémunérateur, peu imposé, hors succession : l’assurance vie est un placement qui présente de nombreux avantages.",
+                "meta_description_length": 138
+            },
+            "2.3_images_optimization": {
+                "total_images": 11,
+                "images_with_alt": 8,
+                "alt_coverage_percentage": 72.72727272727273,
+                "images_with_figcaption": 0
+            },
+            "2.4_structured_data": {
+                "schema_count": 0,
+                "schema_types": []
+            },
+            "2.5_crawlability": {
+                "robots_txt_status": "found",
+                "sitemap_xml_status": "found"
+            }
+        },
+        "category_3_linking": {
+            "3.1_3.2_internal_linking": {
+                "internal_link_count": 0,
+                "anchor_text_diversity": 0,
+                "non_descriptive_anchor_count": 0,
+                "anchor_text_distribution": {}
+            }
+        },
+        "category_4_performance": {
+            "4.1_4.2_desktop_performance": {
+                "LCP_ms": 1879,
+                "INP_ms": 53,
+                "CLS_score": 0.05,
+                "mobile_friendly_score": null
+            },
+            "4.1_4.2_mobile_performance": {
+                "LCP_ms": 2104,
+                "INP_ms": 145,
+                "CLS_score": 0.0,
+                "mobile_friendly_score": null
+            }
+        },
+        "category_5_aio": {
+            "5.1_atomicity_direct_answer": {
+                "potential_qa_pairs": 8,
+                "summary_block_count": 0
+            },
+            "5.2_quantifiable_data": {
+                "percentage_count": 18,
+                "currency_mention_count": 2,
+                "numeric_date_count": 9
+            },
+            "5.3_expertise_signals": {
+                "author_schema_present": false,
+                "about_page_linked": false
+            },
+            "5.4_multimodal_interoperability": {
+                "video_embed_count": 0,
+                "potential_api_link_count": 0
+            }
+        },
+        "category_6_llm_analysis": {
+            "6.1_content_quality_eat": {
+                "content_quality_score": 7,
+                "expertise_score": 6,
+                "authoritativeness_score": 5,
+                "trustworthiness_score": 7,
+                "overall_eat_score": 6,
+                "strengths": [
+                    "Content provides a clear explanation of life insurance and its benefits.",
+                    "The article covers multiple aspects of life insurance, including types of contracts and flexibility."
+                ],
+                "weaknesses": [
+                    "Lacks citations or references to authoritative sources.",
+                    "No information about the author's credentials or expertise in the field."
+                ],
+                "recommendations": [
+                    "Include citations from reputable financial institutions or studies to enhance credibility.",
+                    "Add author bio or credentials to establish expertise and trustworthiness."
+                ]
+            },
+            "6.2_search_intent": {
+                "primary_intent": "informational",
+                "secondary_intents": [
+                    "transactional",
+                    "commercial"
+                ],
+                "intent_fulfillment_score": 8,
+                "query_alignment_score": 7,
+                "target_keywords_identified": [
+                    "avantages de l'assurance vie",
+                    "souscrire assurance vie",
+                    "types de contrats d'assurance vie"
+                ],
+                "user_satisfaction_potential": 8,
+                "content_intent_match": "good",
+                "recommendations": [
+                    "Include more specific examples of advantages to enhance user understanding.",
+                    "Add clear call-to-action buttons for users to explore insurance products or contact for more information."
+                ]
+            },
+            "6.3_topical_coverage": {
+                "main_topic": "Avantages de l'assurance vie",
+                "topic_completeness_score": 7,
+                "semantic_richness_score": 6,
+                "subtopics_covered": [
+                    "Fonctionnement de l'assurance vie",
+                    "Types de contrats d'assurance vie",
+                    "Souscription d'assurance vie"
+                ],
+                "missing_subtopics": [
+                    "Fiscalité de l'assurance vie",
+                    "Comparaison avec d'autres produits d'épargne",
+                    "Avantages fiscaux spécifiques",
+                    "Utilisation de l'assurance vie dans la planification successorale"
+                ],
+                "content_depth_level": "moderate",
+                "related_concepts_coverage": 6,
+                "keyword_context_relevance": 8,
+                "recommendations": [
+                    "Ajouter des sections sur la fiscalité et les avantages fiscaux de l'assurance vie.",
+                    "Inclure des comparaisons avec d'autres produits d'épargne pour enrichir le contenu."
+                ]
+            },
+            "6.4_user_experience": {
+                "engagement_potential_score": 6,
+                "readability_score": 7,
+                "actionability_score": 5,
+                "content_structure_score": 6,
+                "cta_effectiveness_score": 4,
+                "user_journey_support_score": 5,
+                "reading_difficulty": "moderate",
+                "engagement_elements": [
+                    "informative content",
+                    "multiple investment options"
+                ],
+                "improvement_areas": [
+                    "lack of clear headings",
+                    "no bullet points or lists"
+                ],
+                "recommendations": [
+                    "Add clear headings and subheadings for better navigation",
+                    "Incorporate bullet points for key advantages and steps to take"
+                ]
+            },
+            "6.5_featured_snippet_potential": {
+                "featured_snippet_potential": 7,
+                "direct_answer_suitability": 8,
+                "faq_format_potential": 6,
+                "list_format_suitability": 7,
+                "table_format_potential": 5,
+                "voice_search_optimization": 6,
+                "how_to_content_score": 4,
+                "snippet_ready_sections": [
+                    "Les nombreux avantages de l’assurance vie",
+                    "Quels sont les avantages de l’assurance vie ?"
+                ],
+                "optimization_opportunities": [
+                    "Add bullet points for advantages",
+                    "Include a FAQ section for common questions"
+                ],
+                "recommendations": [
+                    "Use concise headers for each advantage",
+                    "Consider adding a summary table comparing contract types"
+                ]
+            },
+            "6.6_brand_communication": {
+                "tone_consistency_score": 8,
+                "brand_voice_clarity": 9,
+                "professional_presentation": 8,
+                "communication_clarity": 9,
+                "target_audience_alignment": 8,
+                "message_coherence": 9,
+                "tone_description": "authoritative",
+                "communication_strengths": [
+                    "Clear explanation of complex financial concepts",
+                    "Professional and authoritative tone that builds trust"
+                ],
+                "communication_weaknesses": [
+                    "Lack of engaging elements that could attract a broader audience",
+                    "Limited use of relatable examples for better understanding"
+                ],
+                "recommendations": [
+                    "Incorporate more relatable examples or anecdotes to engage readers",
+                    "Use visual aids or infographics to simplify complex information"
+                ]
+            }
+        },
+        "enhanced_content_analysis": {
+            "1.1_informational_density": {
+                "total_entities": 81,
+                "entities_by_type": {
+                    "PER": 6,
+                    "MISC": 26,
+                    "ORG": 14,
+                    "LOC": 10
+                },
+                "entity_relations_count": 13,
+                "concept_coverage_score": 100,
+                "thematic_depth_score": 63.58974358974359,
+                "authority_links": [],
+                "informational_density_score": 90.0
+            },
+            "1.2_atomic_blocks": {
+                "qa_pairs_detected": 5,
+                "definitions_detected": 0,
+                "key_takeaways_blocks": 0,
+                "self_sufficient_lists": 1,
+                "atomic_blocks_total": 6,
+                "atomic_quality_score": 10,
+                "sample_definitions": [],
+                "sample_takeaways": []
+            },
+            "1.3_ai_generated_detection": {
+                "ai_generated_phrases_count": 0,
+                "detected_ai_patterns": [],
+                "repetitive_patterns_score": 0,
+                "mechanical_transitions_count": 6,
+                "info_density_ratio": 10.929951690821255,
+                "naturalness_score": 88,
+                "content_authenticity": "Naturel"
+            },
+            "1.4_original_data": {
+                "percentage_data_points": 18,
+                "numeric_data_points": 11,
+                "internal_studies_references": 0,
+                "testimonials_case_studies": 0,
+                "recent_dates_count": 55,
+                "data_originality_score": 100,
+                "sample_percentages": [
+                    "17,2%",
+                    "35%",
+                    "15%",
+                    "7,5%",
+                    "17,2%"
+                ],
+                "sample_numeric_data": [
+                    "4.600 euros",
+                    "9.200 euros",
+                    "4.600 euros",
+                    "9.200 euros",
+                    "000 €"
+                ],
+                "sample_internal_refs": []
+            },
+            "1.5_nap_consistency": {
+                "company_name": "",
+                "phone_numbers_found": 0,
+                "email_addresses_found": 0,
+                "physical_addresses_found": 0,
+                "structured_data_nap": false,
+                "nap_consistency_score": 0,
+                "sample_phones": [],
+                "sample_emails": [],
+                "sample_addresses": []
+            }
+        },
+        "enhanced_structure_analysis": {
+            "2.1_ssr_javascript": {
+                "ssr_compatibility_score": 100,
+                "compatibility_level": "Excellent - Contenu entièrement accessible",
+                "critical_js_detected": 0,
+                "frameworks_detected": [],
+                "spa_indicators_count": 0,
+                "text_content_length": 11086,
+                "lazy_elements_count": 0,
+                "recommendations": []
+            },
+            "2.2_year_metadata": {
+                "title_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "title_text": "Quels sont les avantages de l&#039;assurance vie ?"
+                },
+                "meta_description_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "description_text": "Souple, liquide, garanti, rémunérateur, peu imposé, hors succession : l’assurance vie est un placement qui présente de nombreux avantages."
+                },
+                "headings_with_year_count": 1,
+                "freshness_score": 10,
+                "freshness_level": "Amélioration nécessaire",
+                "recommendations": [
+                    "Ajouter '2025' dans le titre de la page",
+                    "Inclure '2025' dans la meta description",
+                    "Mettre à jour régulièrement les dates dans le contenu",
+                    "Utiliser des expressions comme 'dernière mise à jour' avec l'année courante"
+                ]
+            },
+            "2.3_structured_data_relevance": {
+                "total_structured_schemas": 0,
+                "json_ld_count": 0,
+                "microdata_count": 0,
+                "rdfa_count": 0,
+                "schema_types_detected": [],
+                "schema_relevance_scores": {},
+                "average_relevance_score": 0,
+                "structured_data_quality_score": 0.0,
+                "recommended_missing_schemas": [
+                    "Article",
+                    "HowTo",
+                    "Organization"
+                ],
+                "schema_optimization_level": "Basique"
+            },
+            "2.4_llms_txt_status": {
+                "llms_txt_url": "https://www.carac.fr/llms.txt",
+                "status": "not_found",
+                "content_length": 0,
+                "lines_count": 0,
+                "has_user_agent_directive": false,
+                "has_disallow_directive": false,
+                "has_allow_directive": false,
+                "has_crawl_delay": false,
+                "has_ai_specific_directives": false,
+                "current_effectiveness": "Sans objet",
+                "implementation_recommendation": "Le fichier llms.txt est une initiative expérimentale avec une efficacité actuellement très limitée. Sa mise en place peut être considérée comme une préparation pour l'avenir, mais ne doit pas être prioritaire.",
+                "sample_content": ""
+            }
+        }
+    }
+}
