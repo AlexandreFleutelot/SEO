@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Analyseur SEO Principal - Version Simplifiée et Humanisée
+Analyseur SEO Principal
 Point d'entrée principal pour analyser une page web
 """
 
@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 
 from .config import (
     USER_MESSAGES, DEFAULT_USER_AGENT, REQUEST_TIMEOUT,
-    RAW_REPORTS_DIR, SCORES_DIR, get_analysis_config
+    SEO_ANALYSIS_DIR, SEO_SCORES_DIR, get_analysis_config
 )
 from .modules import (
     analyser_contenu_complet,
@@ -237,7 +237,7 @@ def sauvegarder_resultats(resultats: dict) -> None:
     nom_fichier = nettoyer_nom_fichier(url)
     
     # Sauvegarder le rapport brut complet
-    fichier_brut = RAW_REPORTS_DIR / f"rapport_{nom_fichier}.json"
+    fichier_brut = SEO_ANALYSIS_DIR / f"rapport_{nom_fichier}.json"
     print(f"  💾 Sauvegarde rapport brut: {fichier_brut.name}")
     
     with open(fichier_brut, 'w', encoding='utf-8') as f:
@@ -258,7 +258,7 @@ def sauvegarder_resultats(resultats: dict) -> None:
             'succes': resultats['succes']
         }
         
-        fichier_scores = SCORES_DIR / f"scores_{nom_fichier}.json"
+        fichier_scores = SEO_SCORES_DIR / f"scores_{nom_fichier}.json"
         print(f"  📊 Sauvegarde scores: {fichier_scores.name}")
         
         with open(fichier_scores, 'w', encoding='utf-8') as f:

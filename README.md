@@ -1,6 +1,29 @@
-# SEO Analyzer & Competitive Case Studies Platform
+# Advanced SEO Analysis Platform
 
-A comprehensive Python-based SEO analysis tool that provides detailed insights across 6 categories of webpage optimization, featuring AI-powered content analysis and advanced competitive case studies capabilities.
+A comprehensive Python-based SEO analysis platform featuring AI-powered insights, LLM-based competitive analysis, and interactive reporting. Provides deep analysis across 6 categories with professional-grade reporting capabilities.
+
+## ✨ Recent Enhancements
+
+**🔧 Modular Architecture (v2.0)**
+- Refactored monolithic 1000+ line codebase into specialized modules
+- Organized structure: `seo/`, `core/`, `llm/` directories  
+- Clean separation of concerns and improved maintainability
+
+**🤖 Advanced LLM Analysis**
+- Multi-provider support: OpenAI, Anthropic, Google Gemini
+- Intelligent 3-tier URL extraction strategy with 90%+ success rate
+- Cross-provider sentiment analysis and consensus scoring
+- Professional JSON reports (32KB+ detailed insights)
+
+**📊 Enhanced Reporting**
+- Organized report directories: `seo_analysis/`, `seo_scores/`, `llm_analysis/`
+- Real-time progress tracking with detailed console output
+- Comprehensive metadata and session tracking
+
+**🎯 Robust URL Extraction**
+- Persuasive prompting strategies to overcome LLM limitations
+- Smart domain filtering and accessibility validation  
+- Cross-LLM deduplication and reliability scoring
 
 ## Table of Contents
 
@@ -9,7 +32,7 @@ A comprehensive Python-based SEO analysis tool that provides detailed insights a
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Dashboard Interface](#dashboard-interface)
-- [Case Studies System](#case-studies-system)
+- [LLM Analysis System](#llm-analysis-system)
 - [Analysis Categories](#analysis-categories)
 - [Interpreting Results](#interpreting-results)
 - [Project Structure](#project-structure)
@@ -41,13 +64,13 @@ A comprehensive Python-based SEO analysis tool that provides detailed insights a
 - Page storage and cache management
 - Export capabilities (JSON, Excel)
 
-🔬 **Competitive Case Studies** - Advanced competitive analysis
+🤖 **Advanced LLM Analysis** - Multi-provider intelligence
 - Multi-LLM source extraction (OpenAI, Anthropic, Google)
-- Automatic batch SEO analysis of competitor sources
-- Comparative insights and gap analysis
-- Complete report generation with visualizations
-- Smart source validation and deduplication
-- Keyword analysis and brand mention detection
+- Intelligent URL extraction with 3-tier fallback strategy
+- Brand and entity detection across responses
+- Cross-provider sentiment analysis and consensus
+- Structured JSON reporting with 32KB+ detailed insights
+- Professional report generation with metadata tracking
 
 📋 **Professional Reporting** - Comprehensive export options
 - Structured JSON reports with raw data
@@ -115,13 +138,11 @@ ENABLE_LLM_ANALYSIS=true
 
 ## Usage
 
-### Basic Analysis
+### SEO Analysis
 
 ```bash
 uv run python -m src.page_analyzer
 ```
-
-### Configuration
 
 Edit the target URL in `src/page_analyzer.py`:
 
@@ -129,12 +150,30 @@ Edit the target URL in `src/page_analyzer.py`:
 TARGET_URL = "https://your-website.com/page-to-analyze"
 ```
 
+### LLM Analysis
+
+```bash
+uv run python test_multi_llm.py
+```
+
+Or test interactively:
+
+```python
+from src.modules import analyser_question_multi_llm
+
+results = analyser_question_multi_llm(
+    "What are the best online banks in France in 2024?",
+    "For a comparison intended for individuals looking to open an online bank account"
+)
+```
+
 ### Output
 
-The analyzer generates:
-- Console output with progress indicators
-- JSON report saved to `reports/raw/`
-- Detailed metrics and recommendations
+The analyzers generate:
+- Console output with real-time progress
+- SEO reports in `reports/seo_analysis/` and `reports/seo_scores/`
+- LLM analysis reports in `reports/llm_analysis/`
+- Comprehensive metrics and actionable recommendations
 
 ## Dashboard Interface
 
@@ -152,7 +191,7 @@ The dashboard provides:
 - **📊 Comparaisons**: Side-by-side page comparisons with interactive charts
 - **➕ Nouvelle Analyse**: Add new pages for analysis
 - **📄 Pages Sauvegardées**: Manage cached page content
-- **🔬 Études de Cas**: Competitive analysis case studies
+- **🔬 Études de Cas**: LLM-powered competitive analysis
 
 ### Key Features
 
@@ -161,49 +200,65 @@ The dashboard provides:
 - **Export Options**: JSON and Excel report generation
 - **Responsive Design**: Works on desktop and mobile devices
 
-## Case Studies System
+## LLM Analysis System
 
 ### Overview
 
-The Case Studies system enables comprehensive competitive analysis by:
-1. Querying multiple LLM providers to extract competitor sources
-2. Performing batch SEO analysis on all extracted sources
-3. Generating comparative insights and gap analysis
-4. Producing professional reports with visualizations
+The LLM Analysis system provides advanced research capabilities through:
+1. **Multi-Provider Intelligence**: OpenAI, Anthropic, and Google Gemini support
+2. **Smart URL Extraction**: 3-tier fallback strategy for reliable source extraction  
+3. **Entity Detection**: Automatic brand and entity recognition across responses
+4. **Sentiment Analysis**: Cross-provider consensus and reliability scoring
+5. **Professional Reporting**: Comprehensive JSON reports with detailed metadata
 
-### Creating a Case Study
+#### Intelligent URL Extraction Strategy
+- **Strategy 1**: Parse initial responses for existing URLs
+- **Strategy 2**: Explicit source requests when insufficient URLs found  
+- **Strategy 3**: Forced citation requests with persuasive prompts
+- **Validation**: Domain filtering, accessibility testing, deduplication
 
-1. **Navigate** to the "🔬 Études de Cas" page in the dashboard
-2. **Click** "Nouvelle Étude" tab
-3. **Fill in** the study details:
-   - Study title
-   - Research question (e.g., "What are the best insurance advice websites?")
-   - Description (optional)
-4. **Configure** LLM providers (OpenAI, Anthropic, Google)
-5. **Set** maximum sources per provider (5-20 recommended)
-6. **Enable** advanced options:
-   - ✅ Automatic analysis
-   - ✅ URL accessibility verification
-   - ✅ Keyword analysis
+#### Brand & Entity Detection
+- **Pattern Recognition**: Multiple detection strategies (structured sections, contextual patterns, capitalization analysis)
+- **Entity Classification**: Automatic categorization (banks, insurance, etc.)
+- **Deduplication**: Smart normalization and merging across providers
 
-### Advanced Source Extraction
+#### Cross-Provider Analysis  
+- **Sentiment Consensus**: Aggregate sentiment analysis across multiple LLM responses
+- **Reliability Scoring**: Domain-based authority assessment (0.5-0.9 scale)
+- **Performance Metrics**: Extraction efficiency, URL accessibility, response quality
 
-The system uses optimized prompts with explicit URL citation requirements:
+### Usage Examples
 
+#### Basic LLM Analysis
+```python
+from src.modules import analyser_question_multi_llm
+
+# Analyze a research question
+results = analyser_question_multi_llm(
+    "Quelles sont les meilleures banques en ligne en France en 2024?",
+    "Je cherche des informations fiables pour un comparatif"
+)
+
+# Results include:
+print(f"Brands detected: {len(results['rapport_consolide']['toutes_marques'])}")
+print(f"Sources extracted: {len(results['rapport_consolide']['toutes_sources'])}")
+print(f"Providers used: {results['providers_utilises']}")
 ```
-🔗 CITATION DES SOURCES OBLIGATOIRE:
-- Cite tes sources avec les URLs complètes et exactes
-- Utilise ce format précis: "Source: [Nom du site] - URL: https://exemple.com/page-complete"
-- Fournis 8-12 sources fiables et récentes
-- Privilégie les sites d'autorité (gouvernementaux, institutionnels, presse reconnue)
-```
 
-**Advanced Features:**
-- **Follow-up Queries**: Automatic additional source extraction if insufficient results
-- **Smart Validation**: Filters search engines, social media, URL shorteners
-- **Cross-LLM Deduplication**: Removes duplicates across different LLM providers
-- **Reliability Scoring**: Domain-based authority assessment
-- **JSON Structured Extraction**: Alternative format for higher precision
+#### Direct Module Usage
+```python  
+from src.modules.llm import MultiLLMAnalyzer
+
+analyzer = MultiLLMAnalyzer()
+complete_results = analyzer.analyser_question_complete(
+    "What are the best investment platforms?",
+    "For retirement planning research"
+)
+
+# Generate detailed report
+report_path = analyzer.generer_rapport_complet(complete_results)
+print(f"Report saved to: {report_path}")
+```
 
 ### Competitive Analysis Results
 
@@ -502,53 +557,45 @@ Most metrics use a **1-10 scale** where:
 ```
 SEO/
 ├── src/
-│   ├── page_analyzer.py          # Main analysis orchestrator
-│   ├── case_studies/             # Competitive case studies system
-│   │   ├── __init__.py           # Module initialization
-│   │   ├── models.py             # Data models and enums
-│   │   ├── case_manager.py       # Case study CRUD operations
-│   │   ├── llm_source_extractor.py # Multi-LLM source extraction
-│   │   ├── comparative_analyzer.py # Competitive analysis engine
-│   │   └── case_report_generator.py # Report generation
-│   └── utils/
-│       ├── content.py             # Content analysis functions
-│       ├── structure.py           # Technical structure analysis
-│       ├── linking.py             # Internal linking analysis
-│       ├── performance.py         # Performance metrics
-│       ├── aio.py                 # AI optimization features
-│       ├── llm_analysis.py        # AI-powered content analysis
-│       └── page_storage.py        # Page content storage system
-├── dashboard/                     # Streamlit web interface
+│   ├── analyseur.py              # Main SEO analysis orchestrator
+│   ├── page_analyzer.py          # Legacy entry point (deprecated)
+│   ├── config.py                 # Configuration and paths management
+│   └── modules/                  # Modular analysis components
+│       ├── seo/                  # SEO analysis modules
+│       │   ├── contenu.py        # Content analysis and semantics
+│       │   ├── structure.py      # Technical structure evaluation
+│       │   └── performance.py    # Performance metrics (PageSpeed API)
+│       ├── core/                 # Core utilities
+│       │   └── utils.py          # Scoring and recommendations
+│       └── llm/                  # Large Language Model analysis
+│           ├── multi_llm_analyzer.py    # Main LLM orchestrator
+│           ├── llm_providers.py         # Provider management (OpenAI/Anthropic/Gemini)
+│           ├── url_extractor.py         # Advanced URL extraction
+│           ├── information_extractor.py # Brand/entity detection
+│           ├── sentiment_analyzer.py    # Cross-provider sentiment analysis
+│           └── report_generator.py      # Professional report generation
+├── dashboard/                     # Interactive Streamlit interface
 │   ├── app.py                     # Main dashboard application
 │   ├── components/               # Reusable UI components
-│   ├── pages/                    # Dashboard pages
-│   │   ├── 1_🔍_Analyse_Détaillée.py
-│   │   ├── 2_📊_Comparaisons.py
-│   │   ├── 3_➕_Nouvelle_Analyse.py
-│   │   ├── 4_📄_Pages_Sauvegardées.py
-│   │   └── 5_🔬_Études_de_Cas.py
-│   └── utils/
-│       └── data_loader.py         # Data loading utilities
+│   └── pages/                    # Dashboard pages
+│       ├── 1_🔍_Analyse_Détaillée.py  # Deep-dive analysis
+│       ├── 2_📊_Comparaisons.py       # Page comparisons
+│       ├── 3_➕_Nouvelle_Analyse.py    # Add new analyses
+│       ├── 4_📄_Pages_Sauvegardées.py # Page management
+│       ├── 5_🔬_Études_de_Cas.py      # LLM case studies
+│       └── 6_Analyse_Concurrentielle.py # Competitive analysis
+├── reports/                       # Analysis outputs (organized by type)
+│   ├── seo_analysis/             # SEO analysis reports (JSON)
+│   ├── seo_scores/               # SEO scoring summaries
+│   └── llm_analysis/             # LLM analysis reports
 ├── data/
-│   ├── pages/                     # Cached page content
-│   ├── case_studies/             # Case study data
-│   │   ├── active/               # Active studies
-│   │   ├── completed/            # Completed studies
-│   │   └── reports/              # Generated reports
-│   └── reports/                  # Analysis reports
-├── reports/
-│   ├── raw/                       # Raw JSON analysis reports
-│   └── scores/                    # Consolidated scores
-├── tests/                         # Test files
-│   ├── test_case_study.py        # Case studies tests
-│   └── test_complete_case_study.py # Complete workflow tests
-├── .env                           # API key configuration
-├── .python-version               # Python version specification
-├── pyproject.toml                # Project dependencies
+│   └── pages/                    # Cached page content and metadata
+├── test_multi_llm.py             # LLM system test script
+├── .env                          # API key configuration
+├── pyproject.toml                # Project dependencies (uv format)
 ├── uv.lock                       # Dependency lock file
-├── CLAUDE.md                     # Project context for AI
-├── AMELIORATIONS_EXTRACTION.md  # Extraction improvements documentation
-└── README.md                      # This file
+├── CLAUDE.md                     # Project context documentation
+└── README.md                     # This documentation
 ```
 
 ## Dependencies
@@ -585,24 +632,27 @@ SEO/
 
 ### Running Tests
 ```bash
-# Core analysis tests
-uv run python src/utils/content.py     # Test content analysis
-uv run python src/utils/structure.py   # Test structure analysis
-uv run python src/utils/linking.py     # Test linking analysis
+# SEO analysis tests
+uv run python src/modules/seo/contenu.py      # Test content analysis
+uv run python src/modules/seo/structure.py    # Test structure analysis
+uv run python src/modules/seo/performance.py  # Test performance analysis
 
-# Case studies system tests  
-uv run python test_case_study.py       # Basic case study functionality
-uv run python test_complete_case_study.py # Complete workflow test
+# LLM system tests  
+uv run python test_multi_llm.py               # Complete LLM analysis test
 
 # Dashboard tests
-uv run streamlit run dashboard/app.py   # Launch dashboard for manual testing
+uv run streamlit run dashboard/app.py         # Launch interactive dashboard
 ```
 
 ### Adding New Analysis Modules
-1. Create new module in `src/utils/`
-2. Implement analysis functions
-3. Add imports to `src/page_analyzer.py`
-4. Update documentation
+1. Create new module in appropriate directory:
+   - SEO modules: `src/modules/seo/`
+   - LLM modules: `src/modules/llm/`
+   - Core utilities: `src/modules/core/`
+2. Implement analysis functions with proper error handling
+3. Update imports in `src/modules/__init__.py`
+4. Add configuration in `src/config.py` if needed
+5. Update documentation
 
 ## Troubleshooting
 
@@ -622,10 +672,17 @@ uv run streamlit run dashboard/app.py   # Launch dashboard for manual testing
 - Check internet connectivity
 - Some URLs may not be accessible to PageSpeed API
 
-**LLM Analysis Disabled**
+**LLM Analysis Issues**
 - Check `ENABLE_LLM_ANALYSIS=true` in `.env`
 - Verify OpenAI or Anthropic API key is valid
 - Check API quota and billing status
+- Test individual providers: `from src.modules.llm.llm_providers import LLMProviderManager`
+- For URL extraction issues: Check internet connectivity and domain accessibility
+
+**Module Import Errors**
+- Ensure proper directory structure in `src/modules/`
+- Check `__init__.py` files are present in all module directories
+- Verify import paths match the new modular structure
 
 ## License
 

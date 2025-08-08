@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from typing import Dict, List, Any, Optional
 
-from ..config import MAX_TEXT_LENGTH, USER_MESSAGES
+from ...config import MAX_TEXT_LENGTH, USER_MESSAGES
 
 # Chargement du modèle français pour l'analyse linguistique
 try:

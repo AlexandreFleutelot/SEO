@@ -5,7 +5,7 @@ Ce module centralise la logique de scoring et les conseils d'amélioration
 """
 
 from typing import Dict, List, Any
-from ..config import SCORING_THRESHOLDS
+from ...config import SCORING_THRESHOLDS
 
 
 def calculer_score_global(analyses: Dict[str, Any]) -> Dict[str, Any]:

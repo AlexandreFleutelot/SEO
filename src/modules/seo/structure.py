@@ -10,7 +10,7 @@ from urllib.parse import urljoin, urlparse
 from bs4 import BeautifulSoup
 from typing import Dict, List, Any, Optional
 
-from ..config import USER_MESSAGES
+from ...config import USER_MESSAGES
 
 
 def analyser_structure_titres(soup: BeautifulSoup) -> Dict[str, Any]:

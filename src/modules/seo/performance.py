@@ -10,7 +10,7 @@ import time
 from typing import Dict, Any, Optional
 from urllib.parse import urlencode
 
-from ..config import GOOGLE_PAGESPEED_API_KEY, REQUEST_TIMEOUT, has_api_key
+from ...config import GOOGLE_PAGESPEED_API_KEY, REQUEST_TIMEOUT, has_api_key
 
 
 def analyser_core_web_vitals(url: str) -> Dict[str, Any]:
