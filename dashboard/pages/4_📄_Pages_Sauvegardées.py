@@ -10,6 +10,7 @@ import sys
 from pathlib import Path
 from datetime import datetime
 import os
+import time
 
 # Ajouter le répertoire parent au path
 sys.path.append(str(Path(__file__).parent.parent.parent))
@@ -106,57 +107,80 @@ try:
         st.info("📭 Aucune page sauvegardée. Les pages seront automatiquement sauvegardées lors des prochaines analyses.")
         st.stop()
     
-    # Options de gestion
-    with st.sidebar:
-        st.header("🛠️ Gestion des Pages")
-        
-        # Filtres
-        st.subheader("🔍 Filtres")
-        
+    # Options de gestion déplacées sur la page principale
+    st.subheader("🛠️ Configuration et Filtres")
+    
+    col1, col2, col3 = st.columns([2, 2, 1])
+    
+    with col1:
         # Filtre par domaine
         domains = list(set(page['domain'] for page in pages))
         selected_domain = st.selectbox(
-            "Filtrer par domaine",
-            ["Tous"] + sorted(domains)
+            "🌍 Filtrer par domaine",
+            ["Tous"] + sorted(domains),
+            help="Filtrez les pages par nom de domaine"
         )
-        
+    
+    with col2:
         # Filtre par date
         date_filter = st.selectbox(
-            "Période",
-            ["Toutes", "Aujourd'hui", "7 derniers jours", "30 derniers jours"]
+            "📅 Filtrer par période",
+            ["Toutes", "Aujourd'hui", "7 derniers jours", "30 derniers jours"],
+            help="Filtrez les pages par date de sauvegarde"
         )
-        
-        st.divider()
-        
-        # Actions de nettoyage
-        st.subheader("🧹 Nettoyage")
-        
-        if st.button("🗑️ Nettoyer (30+ jours)", use_container_width=True):
-            try:
-                cleanup_old_pages(max_pages=1000, max_days=30)
-                st.success("✅ Nettoyage effectué !")
-                st.cache_data.clear()
-                st.rerun()
-            except Exception as e:
-                st.error(f"❌ Erreur: {e}")
-        
-        if st.button("🗑️ Conserver 25 plus récentes", use_container_width=True):
-            try:
-                cleanup_old_pages(max_pages=25, max_days=365)
-                st.success("✅ Nettoyage effectué !")
-                st.cache_data.clear()
-                st.rerun()
-            except Exception as e:
-                st.error(f"❌ Erreur: {e}")
-        
-        st.divider()
-        
-        # Informations
-        st.subheader("ℹ️ Informations")
-        st.write("Les pages sont automatiquement sauvegardées lors des analyses SEO.")
-        st.write("💡 **Conseils:**")
-        st.write("• Nettoyez régulièrement pour économiser l'espace")
-        st.write("• Les pages récentes sont utiles pour les comparaisons")
+    
+    with col3:
+        if st.button("🔄 Actualiser", use_container_width=True, help="Actualiser la liste des pages"):
+            st.cache_data.clear()
+            st.rerun()
+    
+    # Actions de nettoyage en ligne
+    st.subheader("🧹 Actions de Nettoyage")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        if st.button("🗑️ Nettoyer pages anciennes (30+ jours)", use_container_width=True):
+            with st.spinner("Nettoyage en cours..."):
+                try:
+                    pages_before = len(get_saved_pages())
+                    cleanup_old_pages(max_pages=1000, max_days=30)
+                    pages_after = len(get_saved_pages())
+                    
+                    deleted_count = pages_before - pages_after
+                    if deleted_count > 0:
+                        st.success(f"✅ {deleted_count} page(s) ancienne(s) supprimée(s) !")
+                    else:
+                        st.info("ℹ️ Aucune page ancienne à supprimer")
+                    
+                    st.cache_data.clear()
+                    time.sleep(1)
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"❌ Erreur lors du nettoyage: {str(e)}")
+    
+    with col2:
+        if st.button("📁 Conserver 25 plus récentes", use_container_width=True):
+            with st.spinner("Nettoyage en cours..."):
+                try:
+                    pages_before = len(get_saved_pages())
+                    cleanup_old_pages(max_pages=25, max_days=365)
+                    pages_after = len(get_saved_pages())
+                    
+                    deleted_count = pages_before - pages_after
+                    if deleted_count > 0:
+                        st.success(f"✅ {deleted_count} ancienne(s) page(s) supprimée(s), {pages_after} conservée(s) !")
+                    else:
+                        st.info(f"ℹ️ Toutes les pages sont déjà dans la limite ({pages_after}/25)")
+                    
+                    st.cache_data.clear()
+                    time.sleep(1)
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"❌ Erreur lors du nettoyage: {str(e)}")
+    
+    with col3:
+        st.info("💡 Les pages sont sauvegardées automatiquement lors des analyses")
     
     # Appliquer les filtres
     filtered_pages = pages
@@ -267,16 +291,58 @@ try:
                 
                 with col3:
                     # Bouton pour supprimer
-                    if st.button("🗑️ Suppr.", key=f"delete_{i}"):
-                        try:
-                            # Supprimer les fichiers
-                            os.remove(page['html_path'])
-                            os.remove(page['metadata_path'])
-                            st.success("✅ Page supprimée !")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"❌ Erreur: {e}")
+                    page_id = f"{page['url']}_{page['download_date']}"
+                    delete_key = f"delete_{page_id}"
+                    
+                    # Vérifier si une suppression est en cours
+                    if st.session_state.get(f"deleting_{delete_key}", False):
+                        st.info("🔄 Suppression...")
+                    else:
+                        if st.button("🗑️ Suppr.", key=delete_key, help="Supprimer cette page du disque"):
+                            # Marquer comme en cours de suppression
+                            st.session_state[f"deleting_{delete_key}"] = True
+                            
+                            try:
+                                # Vérifier l'existence des fichiers avant suppression
+                                html_exists = os.path.exists(page['html_path'])
+                                meta_exists = os.path.exists(page['metadata_path'])
+                                
+                                deleted_files = []
+                                
+                                if html_exists:
+                                    os.remove(page['html_path'])
+                                    deleted_files.append("HTML")
+                                    
+                                if meta_exists:
+                                    os.remove(page['metadata_path'])
+                                    deleted_files.append("Métadonnées")
+                                
+                                if deleted_files:
+                                    st.success(f"✅ Fichiers supprimés: {', '.join(deleted_files)}")
+                                else:
+                                    st.warning("⚠️ Aucun fichier à supprimer (déjà supprimés?)")
+                                
+                                # Nettoyer le session state et rafraîchir
+                                if f"deleting_{delete_key}" in st.session_state:
+                                    del st.session_state[f"deleting_{delete_key}"]
+                                
+                                st.cache_data.clear()
+                                
+                                # Attendre un peu avant de rafraîchir
+                                time.sleep(0.5)
+                                st.rerun()
+                                
+                            except FileNotFoundError as e:
+                                st.warning(f"⚠️ Fichier déjà supprimé: {os.path.basename(str(e).split("'")[1])}")
+                                if f"deleting_{delete_key}" in st.session_state:
+                                    del st.session_state[f"deleting_{delete_key}"]
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"❌ Erreur lors de la suppression: {str(e)}")
+                                if f"deleting_{delete_key}" in st.session_state:
+                                    del st.session_state[f"deleting_{delete_key}"]
+                                st.rerun()
                 
                 st.markdown('</div>', unsafe_allow_html=True)
                 

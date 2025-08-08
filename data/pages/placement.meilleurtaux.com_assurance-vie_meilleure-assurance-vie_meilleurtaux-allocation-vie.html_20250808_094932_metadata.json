@@ -1,0 +1,32 @@
+{
+  "url": "https://placement.meilleurtaux.com/assurance-vie/meilleure-assurance-vie/meilleurtaux-allocation-vie.html",
+  "download_date": "2025-08-08T09:49:32.040700",
+  "html_file": "placement.meilleurtaux.com_assurance-vie_meilleure-assurance-vie_meilleurtaux-allocation-vie.html_20250808_094932.html",
+  "html_size_bytes": 158891,
+  "html_size_kb": 155.17,
+  "content_hash": "e6f7d6b0bf8a18cbab82142734ef94ec",
+  "response_headers": {
+    "Date": "Fri, 08 Aug 2025 07:49:32 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "CF-RAY": "96bd6aeada1dd15e-CDG",
+    "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
+    "Cache-Control": "max-age=300, must-revalidate, post-check=0, pre-check=0",
+    "pragma": "no-cache",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "last-modified": "Fri, 08 Aug 2025 05:44:46 GMT",
+    "access-control-allow-origin": "https://app.placement.meilleurtaux.com",
+    "strict-transport-security": "max-age=16070400; includeSubDomains",
+    "vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "CF-Cache-Status": "HIT",
+    "Age": "7486",
+    "Set-Cookie": "__cf_bm=hMDnW7Agcdx9ohYn44xWFP.7xS7xp8dqAcRLROp03ZU-1754639372-1.0.1.1-lciIt5aus.ZMv2USSOgUsOieVp3u71a0DgY9KnrpGJ2J0iScaVNs57Ex4w8SiiagTbopXkkRtX33NUCFvvlcC8HM9S4PVPC7hTecLAOlZ5k; path=/; expires=Fri, 08-Aug-25 08:19:32 GMT; domain=.meilleurtaux.com; HttpOnly; Secure; SameSite=None",
+    "Server": "cloudflare",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "domain": "placement.meilleurtaux.com",
+  "path": "/assurance-vie/meilleure-assurance-vie/meilleurtaux-allocation-vie.html"
+}

@@ -1,0 +1,412 @@
+{
+    "url": "https://placement.meilleurtaux.com/assurance-vie/meilleure-assurance-vie/meilleurtaux-allocation-vie.html",
+    "analysis_results": {
+        "category_1_content": {
+            "1.1_richness_coverage": {
+                "word_count": 3381,
+                "entity_count": 225,
+                "entity_distribution": {
+                    "MISC": 86,
+                    "ORG": 45,
+                    "PER": 46,
+                    "LOC": 48
+                }
+            },
+            "1.2_style_clarity": {
+                "sentence_count": 246,
+                "avg_sentence_length_words": 16.117886178861788,
+                "list_count": 50,
+                "table_count": 12
+            },
+            "1.3_sources_reliability": {
+                "external_link_count": 4,
+                "external_links": [
+                    "https://souscription.placement.meilleurtaux.com/assurance-vie/meilleurtaux-allocation-vie",
+                    "https://fr.trustpilot.com/review/placement.meilleurtaux.com",
+                    "https://apps.apple.com/fr/app/meilleurtaux-placement/id6443817465",
+                    "https://play.google.com/store/apps/details?id=com.meilleurtaux.placement&gl=FR"
+                ],
+                "textual_citation_count": 11
+            },
+            "1.4_freshness": {
+                "publication_date_meta": null,
+                "detected_dates_in_text": [
+                    "2070-08-08T00:00:00",
+                    "2070-01-08T00:00:00",
+                    "2060-08-08T00:00:00",
+                    "2060-04-08T00:00:00",
+                    "2060-04-08T00:00:00"
+                ],
+                "year_in_title_h1": null
+            }
+        },
+        "category_2_structure": {
+            "2.1_hn_structure": {
+                "h1_count": 1,
+                "headings_by_level": {
+                    "h1": [
+                        "Meilleurtaux Allocation Vie"
+                    ],
+                    "h2": [
+                        "L'essentiel",
+                        "Frais",
+                        "Les modes de gestion",
+                        "Fonds en euros",
+                        "L'ensemble des UC du contrat Meilleurtaux Allocation Vie",
+                        "Souscription / Gestion",
+                        "Documentation PDF"
+                    ]
+                },
+                "hierarchy_issues": []
+            },
+            "2.2_metadata": {
+                "title": "Meilleurtaux Allocation Vie - Assurance Vie Generali - Meilleurtaux Placement",
+                "title_length": 77,
+                "meta_description": "Découvrez notre contrat d'assurance vie assuré par Generali. Avec 0% de frais d'entrée, de nombreux supports et l'un des meilleurs fonds en euros du marché, vous choisissez un contrat de qualité assuré par un géant du secteur. Vous disposez également de l'accompagnement de nos experts en gestion de patrimoine.",
+                "meta_description_length": 311
+            },
+            "2.3_images_optimization": {
+                "total_images": 11,
+                "images_with_alt": 8,
+                "alt_coverage_percentage": 72.72727272727273,
+                "images_with_figcaption": 0
+            },
+            "2.4_structured_data": {
+                "schema_count": 0,
+                "schema_types": []
+            },
+            "2.5_crawlability": {
+                "robots_txt_status": "found",
+                "sitemap_xml_status": "not_found"
+            }
+        },
+        "category_3_linking": {
+            "3.1_3.2_internal_linking": {
+                "internal_link_count": 4,
+                "anchor_text_diversity": 4,
+                "non_descriptive_anchor_count": 1,
+                "anchor_text_distribution": {
+                    "Réglement général des avances": 1,
+                    "Conditions générales": 1,
+                    "En savoir plus": 1,
+                    "Note d'information": 1
+                }
+            }
+        },
+        "category_4_performance": {
+            "4.1_4.2_desktop_performance": {
+                "LCP_ms": 3976,
+                "INP_ms": 85,
+                "CLS_score": 0.33,
+                "mobile_friendly_score": null
+            },
+            "4.1_4.2_mobile_performance": {
+                "LCP_ms": 4145,
+                "INP_ms": 925,
+                "CLS_score": 0.05,
+                "mobile_friendly_score": null
+            }
+        },
+        "category_5_aio": {
+            "5.1_atomicity_direct_answer": {
+                "potential_qa_pairs": 5,
+                "summary_block_count": 0
+            },
+            "5.2_quantifiable_data": {
+                "percentage_count": 10,
+                "currency_mention_count": 27,
+                "numeric_date_count": 45
+            },
+            "5.3_expertise_signals": {
+                "author_schema_present": false,
+                "about_page_linked": false
+            },
+            "5.4_multimodal_interoperability": {
+                "video_embed_count": 0,
+                "potential_api_link_count": 0
+            }
+        },
+        "category_6_llm_analysis": {
+            "6.1_content_quality_eat": {
+                "content_quality_score": 7,
+                "expertise_score": 6,
+                "authoritativeness_score": 7,
+                "trustworthiness_score": 8,
+                "overall_eat_score": 7,
+                "strengths": [
+                    "Clear presentation of financial product features and benefits",
+                    "Strong customer feedback rating (4.7/5 from 3053 reviews)"
+                ],
+                "weaknesses": [
+                    "Lack of detailed author credentials or expert endorsements",
+                    "Limited citations or references to external authoritative sources"
+                ],
+                "recommendations": [
+                    "Include author credentials or expert endorsements to enhance expertise",
+                    "Add external references or links to authoritative financial sources for credibility"
+                ]
+            },
+            "6.2_search_intent": {
+                "primary_intent": "transactional",
+                "secondary_intents": [
+                    "informational",
+                    "commercial"
+                ],
+                "intent_fulfillment_score": 8,
+                "query_alignment_score": 7,
+                "target_keywords_identified": [
+                    "assurance vie",
+                    "Meilleurtaux Allocation Vie",
+                    "rendement assurance vie",
+                    "offre de bienvenue assurance vie"
+                ],
+                "user_satisfaction_potential": 8,
+                "content_intent_match": "good",
+                "recommendations": [
+                    "Enhance the clarity of the offer conditions to improve user understanding.",
+                    "Include more FAQs to address common concerns about the investment risks and benefits."
+                ]
+            },
+            "6.3_topical_coverage": {
+                "main_topic": "Assurance Vie Meilleurtaux Allocation Vie",
+                "topic_completeness_score": 8,
+                "semantic_richness_score": 7,
+                "subtopics_covered": [
+                    "rendement de l'assurance vie",
+                    "fiscalité avantageuse",
+                    "risques associés aux unités de compte",
+                    "conditions de l'offre",
+                    "flexibilité de l'assurance vie"
+                ],
+                "missing_subtopics": [
+                    "comparaison avec d'autres produits d'assurance vie",
+                    "détails sur le fonds en euros Netissima",
+                    "avis clients ou études de cas",
+                    "stratégies d'investissement recommandées"
+                ],
+                "content_depth_level": "moderate",
+                "related_concepts_coverage": 6,
+                "keyword_context_relevance": 8,
+                "recommendations": [
+                    "Include comparisons with other similar products to enhance decision-making for potential clients.",
+                    "Add case studies or testimonials to build trust and provide real-world context."
+                ]
+            },
+            "6.4_user_experience": {
+                "engagement_potential_score": 6,
+                "readability_score": 5,
+                "actionability_score": 7,
+                "content_structure_score": 6,
+                "cta_effectiveness_score": 7,
+                "user_journey_support_score": 5,
+                "reading_difficulty": "moderate",
+                "engagement_elements": [
+                    "offer details",
+                    "client testimonials"
+                ],
+                "improvement_areas": [
+                    "clarity of terms",
+                    "visual structure"
+                ],
+                "recommendations": [
+                    "use bullet points for key benefits",
+                    "add clear headings for sections"
+                ]
+            },
+            "6.5_featured_snippet_potential": {
+                "featured_snippet_potential": 6,
+                "direct_answer_suitability": 7,
+                "faq_format_potential": 5,
+                "list_format_suitability": 4,
+                "table_format_potential": 3,
+                "voice_search_optimization": 6,
+                "how_to_content_score": 4,
+                "snippet_ready_sections": [
+                    "Avantages de l'assurance vie",
+                    "Conditions de l'offre"
+                ],
+                "optimization_opportunities": [
+                    "Add concise bullet points for key benefits",
+                    "Create an FAQ section addressing common queries"
+                ],
+                "recommendations": [
+                    "Use headers and subheaders for better structure",
+                    "Include a summary or conclusion with key takeaways"
+                ]
+            },
+            "6.6_brand_communication": {
+                "tone_consistency_score": 8,
+                "brand_voice_clarity": 7,
+                "professional_presentation": 9,
+                "communication_clarity": 6,
+                "target_audience_alignment": 8,
+                "message_coherence": 7,
+                "tone_description": "formal",
+                "communication_strengths": [
+                    "Professional and authoritative presentation of financial products",
+                    "Clear articulation of benefits and conditions"
+                ],
+                "communication_weaknesses": [
+                    "Complexity in language may confuse some readers",
+                    "Lack of engaging elements to maintain reader interest"
+                ],
+                "recommendations": [
+                    "Simplify language to enhance clarity for a broader audience",
+                    "Incorporate engaging visuals or examples to illustrate key points"
+                ]
+            }
+        },
+        "enhanced_content_analysis": {
+            "1.1_informational_density": {
+                "total_entities": 225,
+                "entities_by_type": {
+                    "MISC": 55,
+                    "ORG": 30,
+                    "PER": 32,
+                    "LOC": 31
+                },
+                "entity_relations_count": 46,
+                "concept_coverage_score": 100,
+                "thematic_depth_score": 58.61788617886179,
+                "authority_links": [],
+                "informational_density_score": 90.0
+            },
+            "1.2_atomic_blocks": {
+                "qa_pairs_detected": 2,
+                "definitions_detected": 10,
+                "key_takeaways_blocks": 0,
+                "self_sufficient_lists": 4,
+                "atomic_blocks_total": 16,
+                "atomic_quality_score": 100,
+                "sample_definitions": [
+                    [
+                        "transferts pactes ne",
+                        "pas éligibles à cette opération commerciale."
+                    ],
+                    [
+                        "performances passées ne préjugent pas des performances futures et ne",
+                        "pas constantes dans le temps."
+                    ],
+                    [
+                        "autres frais",
+                        "consultables dans les conditions générales ou en cliquant sur \"Afficher les autres frais\"\n\n\nFraisd'entrée\n0,00 €\n\n\nFrais surversement\n0,00 €\n\n\nFraisde dossier\n0,00 €\n\n\nFrais de gestion sur les UC\n0,6 %/an\n\n\nAfficher les autres frais\n\nFrais et fonctionnement\nVersements & Arbitrages\n\n\n\n\nVersement initial\n\n\n\nFrais sur versements(Hors certains supports, voir ci-dessous)\n0 %\n\n\nMontant minimum\n500 €\n\n\nDate d'effet\nJ + 3 ouvrés\n\n\n\n\n\n\n\nVersements libres\n\n\n\nFrais sur versements(Hors certains supports, voir ci-dessous)\n0 %\n\n\nMontant minimum\n300 €\n\n\nDate d'effet\nJ + 3 ouvrés\n\n\n\n\n\n\n\nVersements libres programmés \n\n\n\nFrais sur versements(Hors certains supports, voir ci-dessous)\n0 %\n\n\nMontant minimum mensuel\nMontant de 50 €\n\n\nSolde par support\n250 €après un rachat\n\n\nDate d'effet\nJ + 3 ouvrés\n\n\n\n\n\n\n\nArbitrages \n\n\n\nFrais sur arbitrages\n0 %\n\n\nFrais au titre des options / arbitrages automatiques\nde 0 % à 0,50 % maximum du montant transféré en fonction des options choisies (dynamisation ou sécurisation des plus-values)\n\n\nMontant minimum\n50 €\n\n\nDate d'effet\nJ + 1 ouvré(arbitrages en ligne avant 16h)sinon J + 2 ouvrés maximum\n\n\n\n\nUn arbitrage est un acte de gestion qui consiste à désinvestir un ou plusieurs supports d'investissement pour investir sur un ou plusieurs supports d'investissement."
+                    ]
+                ],
+                "sample_takeaways": []
+            },
+            "1.3_ai_generated_detection": {
+                "ai_generated_phrases_count": 0,
+                "detected_ai_patterns": [],
+                "repetitive_patterns_score": 0,
+                "mechanical_transitions_count": 11,
+                "info_density_ratio": 15.85329784087548,
+                "naturalness_score": 78,
+                "content_authenticity": "Suspect"
+            },
+            "1.4_original_data": {
+                "percentage_data_points": 10,
+                "numeric_data_points": 30,
+                "internal_studies_references": 0,
+                "testimonials_case_studies": 0,
+                "recent_dates_count": 82,
+                "data_originality_score": 100,
+                "sample_percentages": [
+                    "4,60%",
+                    "30%",
+                    "100%",
+                    "30%",
+                    "4,60%"
+                ],
+                "sample_numeric_data": [
+                    "200 €",
+                    "500 €",
+                    "500 €",
+                    "0€",
+                    "200 €"
+                ],
+                "sample_internal_refs": []
+            },
+            "1.5_nap_consistency": {
+                "company_name": "Meilleurtaux Placement",
+                "phone_numbers_found": 2,
+                "email_addresses_found": 0,
+                "physical_addresses_found": 2,
+                "structured_data_nap": false,
+                "nap_consistency_score": 80,
+                "sample_phones": [
+                    "22\n2023\n2024",
+                    "2020\n2021\n20"
+                ],
+                "sample_emails": [],
+                "sample_addresses": [
+                    "75008 PARIS",
+                    "95 rue d’Amsterdam 75008 PARIS"
+                ]
+            }
+        },
+        "enhanced_structure_analysis": {
+            "2.1_ssr_javascript": {
+                "ssr_compatibility_score": 100,
+                "compatibility_level": "Excellent - Contenu entièrement accessible",
+                "critical_js_detected": 0,
+                "frameworks_detected": [],
+                "spa_indicators_count": 0,
+                "text_content_length": 21757,
+                "lazy_elements_count": 6,
+                "recommendations": []
+            },
+            "2.2_year_metadata": {
+                "title_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "title_text": "Meilleurtaux Allocation Vie - Assurance Vie Generali - Meilleurtaux Placement"
+                },
+                "meta_description_analysis": {
+                    "has_current_year": false,
+                    "has_recent_year": false,
+                    "has_any_year": false,
+                    "description_text": "Découvrez notre contrat d'assurance vie assuré par Generali. Avec 0% de frais d'entrée, de nombreux supports et l'un des meilleurs fonds en euros du m..."
+                },
+                "headings_with_year_count": 0,
+                "freshness_score": 0,
+                "freshness_level": "Amélioration nécessaire",
+                "recommendations": [
+                    "Ajouter '2025' dans le titre de la page",
+                    "Inclure '2025' dans la meta description",
+                    "Mettre à jour régulièrement les dates dans le contenu",
+                    "Utiliser des expressions comme 'dernière mise à jour' avec l'année courante"
+                ]
+            },
+            "2.3_structured_data_relevance": {
+                "total_structured_schemas": 0,
+                "json_ld_count": 0,
+                "microdata_count": 0,
+                "rdfa_count": 0,
+                "schema_types_detected": [],
+                "schema_relevance_scores": {},
+                "average_relevance_score": 0,
+                "structured_data_quality_score": 0.0,
+                "recommended_missing_schemas": [
+                    "HowTo",
+                    "Organization"
+                ],
+                "schema_optimization_level": "Basique"
+            },
+            "2.4_llms_txt_status": {
+                "llms_txt_url": "https://placement.meilleurtaux.com/llms.txt",
+                "status": "error_accessing",
+                "content_length": 0,
+                "lines_count": 0,
+                "has_user_agent_directive": false,
+                "has_disallow_directive": false,
+                "has_allow_directive": false,
+                "has_crawl_delay": false,
+                "has_ai_specific_directives": false,
+                "current_effectiveness": "Sans objet",
+                "implementation_recommendation": "Le fichier llms.txt est une initiative expérimentale avec une efficacité actuellement très limitée. Sa mise en place peut être considérée comme une préparation pour l'avenir, mais ne doit pas être prioritaire.",
+                "sample_content": "HTTP 403"
+            }
+        }
+    }
+}

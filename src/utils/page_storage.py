@@ -1,239 +1,176 @@
 # -*- coding: utf-8 -*-
 """
-page_storage.py
-
-Utilitaires pour la sauvegarde et la gestion des pages HTML téléchargées.
+Stockage et cache des pages web analysées
+Ce module gère la sauvegarde des contenus de pages pour debug et cache
 """
 
-import os
 import json
-from datetime import datetime, timedelta
+import os
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
-import hashlib
-import re
+
+from ..config import PAGES_STORAGE_DIR
 
 
-def sanitize_filename(url: str) -> str:
+def save_page_content(url: str, html_content: str) -> str:
     """
-    Convertit une URL en nom de fichier sécurisé.
+    Sauvegarde le contenu d'une page web pour cache/debug
     
     Args:
-        url (str): URL à convertir
-        
-    Returns:
-        str: Nom de fichier sécurisé
-    """
-    # Parse l'URL
-    parsed = urlparse(url)
-    
-    # Créer un nom basé sur le domaine et le chemin
-    domain = parsed.netloc.replace('www.', '')
-    path = parsed.path.strip('/')
-    
-    # Remplacer les caractères problématiques
-    safe_chars = re.sub(r'[^\w\-_.]', '_', f"{domain}_{path}")
-    
-    # Limiter la longueur et nettoyer
-    safe_chars = safe_chars.replace('__', '_').strip('_')[:100]
-    
-    return safe_chars
-
-
-def save_page_content(url: str, html_content: str, response_headers: dict = None) -> str:
-    """
-    Sauvegarde le contenu HTML d'une page avec ses métadonnées.
-    
-    Args:
-        url (str): URL de la page
-        html_content (str): Contenu HTML brut
-        response_headers (dict, optional): Headers de la réponse HTTP
+        url: URL de la page
+        html_content: Contenu HTML brut
         
     Returns:
         str: Chemin du fichier sauvegardé
     """
-    # Créer le dossier s'il n'existe pas
-    pages_dir = Path("data/pages")
-    pages_dir.mkdir(parents=True, exist_ok=True)
-    
-    # Générer le nom de fichier
-    safe_filename = sanitize_filename(url)
+    # Créer le nom de fichier sécurisé
+    nom_fichier = creer_nom_fichier_page(url)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
-    # Nom de fichier avec horodatage
-    html_filename = f"{safe_filename}_{timestamp}.html"
-    metadata_filename = f"{safe_filename}_{timestamp}_metadata.json"
+    # Fichier HTML
+    fichier_html = PAGES_STORAGE_DIR / f"{nom_fichier}_{timestamp}.html"
     
-    html_path = pages_dir / html_filename
-    metadata_path = pages_dir / metadata_filename
+    # Fichier métadonnées
+    fichier_meta = PAGES_STORAGE_DIR / f"{nom_fichier}_{timestamp}_metadata.json"
     
-    # Sauvegarder le HTML
-    try:
-        with open(html_path, 'w', encoding='utf-8') as f:
-            f.write(html_content)
+    # Sauvegarder le contenu HTML
+    with open(fichier_html, 'w', encoding='utf-8') as f:
+        f.write(html_content)
+    
+    # Sauvegarder les métadonnées
+    metadonnees = {
+        'url': url,
+        'domaine': urlparse(url).netloc,
+        'date_sauvegarde': datetime.now().isoformat(),
+        'taille_contenu': len(html_content),
+        'fichier_html': fichier_html.name
+    }
+    
+    with open(fichier_meta, 'w', encoding='utf-8') as f:
+        json.dump(metadonnees, f, indent=2, ensure_ascii=False)
+    
+    return str(fichier_html)
+
+
+def creer_nom_fichier_page(url: str) -> str:
+    """
+    Crée un nom de fichier sécurisé à partir d'une URL
+    
+    Args:
+        url: URL à convertir
         
-        # Sauvegarder les métadonnées
-        metadata = {
-            "url": url,
-            "download_date": datetime.now().isoformat(),
-            "html_file": html_filename,
-            "html_size_bytes": len(html_content.encode('utf-8')),
-            "html_size_kb": round(len(html_content.encode('utf-8')) / 1024, 2),
-            "content_hash": hashlib.md5(html_content.encode('utf-8')).hexdigest(),
-            "response_headers": response_headers or {},
-            "domain": urlparse(url).netloc,
-            "path": urlparse(url).path
-        }
-        
-        with open(metadata_path, 'w', encoding='utf-8') as f:
-            json.dump(metadata, f, indent=2, ensure_ascii=False)
-        
-        print(f"📄 Page sauvegardée: {html_path}")
-        print(f"📋 Métadonnées: {metadata_path}")
-        
-        return str(html_path)
-        
-    except Exception as e:
-        print(f"⚠️ Erreur lors de la sauvegarde de la page: {e}")
-        return ""
+    Returns:
+        str: Nom de fichier nettoyé
+    """
+    import re
+    
+    # Supprimer le protocole
+    nom = url.replace('https://', '').replace('http://', '')
+    
+    # Remplacer les caractères spéciaux par des underscores
+    nom = re.sub(r'[^\w\-_.]', '_', nom)
+    
+    # Supprimer les underscores multiples
+    nom = re.sub(r'_+', '_', nom)
+    
+    # Limiter la longueur
+    if len(nom) > 100:
+        nom = nom[:100]
+    
+    # Supprimer les underscores en début/fin
+    nom = nom.strip('_')
+    
+    return nom if nom else 'page_inconnue'
 
 
 def get_saved_pages() -> list:
     """
-    Récupère la liste des pages sauvegardées avec leurs métadonnées.
+    Récupère la liste des pages sauvegardées
     
     Returns:
-        list: Liste des pages sauvegardées avec leurs métadonnées
+        list: Liste des pages avec métadonnées
     """
-    pages_dir = Path("data/pages")
+    pages = []
     
-    if not pages_dir.exists():
-        return []
-    
-    saved_pages = []
-    
-    # Parcourir tous les fichiers metadata
-    for metadata_file in pages_dir.glob("*_metadata.json"):
+    # Chercher tous les fichiers de métadonnées
+    for fichier_meta in PAGES_STORAGE_DIR.glob("*_metadata.json"):
         try:
-            with open(metadata_file, 'r', encoding='utf-8') as f:
-                metadata = json.load(f)
-            
-            # Vérifier que le fichier HTML existe encore
-            html_path = pages_dir / metadata['html_file']
-            if html_path.exists():
-                metadata['html_path'] = str(html_path)
-                metadata['metadata_path'] = str(metadata_file)
-                saved_pages.append(metadata)
+            with open(fichier_meta, 'r', encoding='utf-8') as f:
+                metadonnees = json.load(f)
                 
-        except Exception as e:
-            print(f"⚠️ Erreur lors de la lecture de {metadata_file}: {e}")
+            # Vérifier que le fichier HTML existe toujours
+            fichier_html = PAGES_STORAGE_DIR / metadonnees.get('fichier_html', '')
+            if fichier_html.exists():
+                metadonnees['chemin_complet'] = str(fichier_html)
+                pages.append(metadonnees)
+                
+        except (json.JSONDecodeError, IOError):
+            # Ignorer les fichiers corrompus
+            continue
     
-    # Trier par date de téléchargement (plus récent en premier)
-    saved_pages.sort(key=lambda x: x['download_date'], reverse=True)
+    # Trier par date de sauvegarde (plus récent en premier)
+    pages.sort(key=lambda x: x.get('date_sauvegarde', ''), reverse=True)
     
-    return saved_pages
+    return pages
 
 
-def cleanup_old_pages(max_pages: int = 100, max_days: int = 30):
+def delete_saved_page(nom_fichier: str) -> bool:
     """
-    Nettoie les anciennes pages sauvegardées.
+    Supprime une page sauvegardée (HTML + métadonnées)
     
     Args:
-        max_pages (int): Nombre maximum de pages à conserver
-        max_days (int): Âge maximum des pages en jours
-    """
-    pages_dir = Path("data/pages")
-    
-    if not pages_dir.exists():
-        return
-    
-    saved_pages = get_saved_pages()
-    
-    # Nettoyer par nombre
-    if len(saved_pages) > max_pages:
-        pages_to_delete = saved_pages[max_pages:]
-        for page in pages_to_delete:
-            try:
-                os.remove(page['html_path'])
-                os.remove(page['metadata_path'])
-                print(f"🗑️ Supprimé: {page['html_file']} (limite de {max_pages} pages)")
-            except Exception as e:
-                print(f"⚠️ Erreur lors de la suppression: {e}")
-    
-    # Nettoyer par âge
-    cutoff_date = datetime.now() - timedelta(days=max_days)
-    
-    for page in saved_pages:
-        try:
-            download_date = datetime.fromisoformat(page['download_date'].replace('Z', '+00:00'))
-            if download_date < cutoff_date:
-                os.remove(page['html_path'])
-                os.remove(page['metadata_path'])
-                print(f"🗑️ Supprimé: {page['html_file']} (plus de {max_days} jours)")
-        except Exception as e:
-            print(f"⚠️ Erreur lors du nettoyage par âge: {e}")
-
-
-def find_page_by_url(url: str, tolerance_hours: int = 24) -> dict:
-    """
-    Trouve une page sauvegardée correspondant à l'URL donnée.
-    
-    Args:
-        url (str): URL à chercher
-        tolerance_hours (int): Tolérance en heures pour considérer une page comme récente
+        nom_fichier: Nom du fichier à supprimer (sans extension)
         
     Returns:
-        dict: Métadonnées de la page trouvée ou None
+        bool: True si suppression réussie
     """
-    saved_pages = get_saved_pages()
-    
-    for page in saved_pages:
-        if page['url'] == url:
-            # Vérifier si la page est assez récente
-            download_date = datetime.fromisoformat(page['download_date'].replace('Z', '+00:00'))
-            age_hours = (datetime.now() - download_date).total_seconds() / 3600
-            
-            if age_hours <= tolerance_hours:
-                return page
-    
-    return None
+    try:
+        # Supprimer le fichier HTML
+        fichier_html = PAGES_STORAGE_DIR / f"{nom_fichier}.html"
+        if fichier_html.exists():
+            fichier_html.unlink()
+        
+        # Supprimer le fichier de métadonnées
+        fichier_meta = PAGES_STORAGE_DIR / f"{nom_fichier}_metadata.json"
+        if fichier_meta.exists():
+            fichier_meta.unlink()
+        
+        return True
+        
+    except Exception as e:
+        print(f"Erreur lors de la suppression de {nom_fichier}: {e}")
+        return False
 
 
 def get_storage_stats() -> dict:
     """
-    Retourne des statistiques sur le stockage des pages.
+    Récupère les statistiques du stockage
     
     Returns:
-        dict: Statistiques de stockage
+        dict: Statistiques du cache
     """
-    pages_dir = Path("data/pages")
+    pages = get_saved_pages()
     
-    if not pages_dir.exists():
-        return {
-            "total_pages": 0,
-            "total_size_mb": 0,
-            "oldest_date": None,
-            "newest_date": None
-        }
+    # Calculer la taille totale
+    taille_totale = 0
+    for page in pages:
+        fichier_html = Path(page.get('chemin_complet', ''))
+        if fichier_html.exists():
+            taille_totale += fichier_html.stat().st_size
     
-    saved_pages = get_saved_pages()
-    
-    if not saved_pages:
-        return {
-            "total_pages": 0,
-            "total_size_mb": 0,
-            "oldest_date": None,
-            "newest_date": None
-        }
-    
-    total_size = sum(page.get('html_size_bytes', 0) for page in saved_pages)
-    
-    dates = [datetime.fromisoformat(page['download_date'].replace('Z', '+00:00')) for page in saved_pages]
+    # Grouper par domaine
+    domaines = {}
+    for page in pages:
+        domaine = page.get('domaine', 'inconnu')
+        if domaine not in domaines:
+            domaines[domaine] = 0
+        domaines[domaine] += 1
     
     return {
-        "total_pages": len(saved_pages),
-        "total_size_mb": round(total_size / (1024 * 1024), 2),
-        "oldest_date": min(dates).strftime('%d/%m/%Y %H:%M'),
-        "newest_date": max(dates).strftime('%d/%m/%Y %H:%M'),
-        "average_size_kb": round(total_size / len(saved_pages) / 1024, 2)
+        'nombre_pages': len(pages),
+        'taille_totale_mb': round(taille_totale / (1024 * 1024), 2),
+        'domaines': domaines,
+        'page_plus_recente': pages[0].get('date_sauvegarde') if pages else None,
+        'page_plus_ancienne': pages[-1].get('date_sauvegarde') if pages else None
     }

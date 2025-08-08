@@ -1,92 +1,18 @@
 {
-    "url": "https://example.com",
-    "analysis_date": "2025-08-07T14:05:53.202450",
-    "global_analysis": {
-        "global_score": 40.3,
-        "performance_level": "Moyen",
-        "level_color": "orange",
-        "strengths": [
-            "category_4_performance"
-        ],
-        "weaknesses": [
-            "category_5_aio",
-            "category_6_llm_analysis"
-        ],
-        "category_breakdown": {
-            "category_1_content": 29.60333333333333,
-            "category_2_structure": 53.25,
-            "category_3_linking": 15.0,
-            "category_4_performance": 100.0,
-            "category_5_aio": 0.0,
-            "category_6_llm_analysis": 0
-        }
-    },
-    "category_scores": {
-        "content_semantics": {
-            "score": 29.6,
-            "details": {
-                "richness_score": 5.200000000000001,
-                "style_score": 28.46666666666666,
-                "sources_score": 46.66666666666666,
-                "freshness_score": 60,
-                "category_score": 29.60333333333333
-            }
-        },
-        "technical_structure": {
-            "score": 53.2,
-            "details": {
-                "hn_score": 100.0,
-                "metadata_score": 18.0,
-                "images_score": 100,
-                "schema_score": 25,
-                "crawlability_score": 0.0,
-                "category_score": 53.25
-            }
-        },
-        "internal_linking": {
-            "score": 15.0,
-            "details": {
-                "internal_links_score": 0.0,
-                "anchor_diversity_score": 0,
-                "descriptive_anchors_score": 50,
-                "category_score": 15.0
-            }
-        },
-        "performance": {
-            "score": 100.0,
-            "details": {
-                "desktop_score": 100.0,
-                "mobile_score": 100.0,
-                "category_score": 100.0
-            }
-        },
-        "aio_optimization": {
-            "score": 0.0,
-            "details": {
-                "atomicity_score": 0,
-                "quantifiable_score": 0,
-                "expertise_score": 0,
-                "multimodal_score": 0,
-                "category_score": 0.0
-            }
-        },
-        "llm_analysis": {
-            "score": 0,
-            "details": {
-                "category_score": 0
-            }
-        }
-    },
-    "scoring_metadata": {
-        "scoring_version": "1.0",
-        "category_weights": {
-            "category_1_content": 0.25,
-            "category_2_structure": 0.2,
-            "category_3_linking": 0.15,
-            "category_4_performance": 0.2,
-            "category_5_aio": 0.1,
-            "category_6_llm_analysis": 0.1
-        },
-        "total_categories": 6
-    }
+  "url": "https://example.com",
+  "domaine": "example.com",
+  "date_analyse": "2025-08-08T10:41:58.403214",
+  "score_global": 57.6,
+  "niveau_performance": "Moyen",
+  "scores_categories": {
+    "contenu": 52,
+    "structure": 43,
+    "performance": 80
+  },
+  "forces": [
+    "Performance & Vitesse"
+  ],
+  "faiblesses": [],
+  "nombre_recommandations": 13,
+  "succes": false
 }

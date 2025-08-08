@@ -38,22 +38,28 @@ if not reports:
     st.warning("Aucun rapport disponible. Lancez d'abord une analyse.")
     st.stop()
 
-# Sélection du rapport
-selected_report = st.selectbox(
-    "Choisir un rapport pour l'analyse détaillée",
-    options=reports,
-    format_func=lambda x: f"{x['domain']} ({x['created_date'].strftime('%d/%m/%Y %H:%M')})"
-)
+# Sélection du rapport avec design amélioré
+st.subheader("🎯 Sélection du Rapport à Analyser")
+
+col1, col2 = st.columns([3, 1])
+
+with col1:
+    selected_report = st.selectbox(
+        "Choisissez le rapport à analyser en détail",
+        options=reports,
+        format_func=lambda x: f"🌐 {x['domain']} • {x['created_date'].strftime('%d/%m/%Y à %H:%M')}",
+        help="Sélectionnez un rapport pour accéder à l'analyse détaillée de toutes ses métriques SEO"
+    )
+
+with col2:
+    if st.button("🔄 Rafraîchir", use_container_width=True, help="Actualiser les données"):
+        st.cache_data.clear()
+        st.rerun()
 
 if not selected_report:
     st.stop()
 
-# Bouton de rafraîchissement dans la sidebar
-with st.sidebar:
-    st.divider()
-    if st.button("🔄 Rafraîchir les données", use_container_width=True):
-        st.cache_data.clear()
-        st.rerun()
+st.divider()
 
 # Chargement des données détaillées
 raw_report = loader.load_raw_report(selected_report['id'])

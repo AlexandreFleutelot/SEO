@@ -1,0 +1,253 @@
+{
+  "url": "https://example.com",
+  "date_analyse": "2025-08-08T10:41:58.403214",
+  "domaine": "example.com",
+  "configuration": {
+    "llm_enabled": true,
+    "enhanced_enabled": true,
+    "performance_enabled": true,
+    "llm_provider": "openai"
+  },
+  "succes": false,
+  "erreurs": [],
+  "analyses": {
+    "contenu": {
+      "richesse_couverture": {
+        "nombre_mots": 28,
+        "nombre_entites": 3,
+        "repartition_entites": {
+          "MISC": 2,
+          "PER": 1
+        },
+        "diversite_vocabulaire": 0.83,
+        "mots_cles_principaux": [
+          [
+            "domain",
+            3
+          ],
+          [
+            "this",
+            2
+          ],
+          [
+            "example",
+            1
+          ],
+          [
+            "illustrative",
+            1
+          ],
+          [
+            "examples",
+            1
+          ],
+          [
+            "documents",
+            1
+          ],
+          [
+            "\n    ",
+            1
+          ],
+          [
+            "literature",
+            1
+          ],
+          [
+            "without",
+            1
+          ],
+          [
+            "prior",
+            1
+          ]
+        ]
+      },
+      "style_clarte": {
+        "nombre_phrases": 6,
+        "longueur_moyenne_phrase": 4.8,
+        "nombre_listes": 0,
+        "nombre_tableaux": 0,
+        "nombre_titres": 1,
+        "lisibilite_score": 60
+      },
+      "sources_fiabilite": {
+        "nombre_liens_externes": 1,
+        "liens_externes": [
+          {
+            "url": "https://www.iana.org/domains/example",
+            "texte": "More information...",
+            "domaine": "www.iana.org"
+          }
+        ],
+        "citations_textuelles": 0,
+        "exemples_citations": [],
+        "sources_fiables": 1,
+        "score_credibilite": 45
+      },
+      "fraicheur": {
+        "dates_trouvees": 1,
+        "date_plus_recente": "2025-05-08T00:00:00",
+        "jours_depuis_maj": 92,
+        "niveau_fraicheur": "moyennement récent",
+        "score_fraicheur": 60
+      },
+      "detection_ia": {
+        "score_ia": 0,
+        "score_naturel": 100,
+        "authenticite_contenu": "probablement humain",
+        "indicateurs_detectes": false
+      },
+      "longueur_texte": 191,
+      "nb_mots_total": 28
+    },
+    "structure": {
+      "structure_titres": {
+        "nombre_h1": 1,
+        "titres_par_niveau": {
+          "h1": [
+            "Example Domain"
+          ]
+        },
+        "hierarchie_correcte": true,
+        "niveaux_utilises": [
+          1
+        ],
+        "score_structure_titres": 90,
+        "titre_principal": "Example Domain"
+      },
+      "metadonnees": {
+        "titre": "Example Domain",
+        "longueur_titre": 14,
+        "description": "",
+        "longueur_description": 0,
+        "keywords": "",
+        "url_canonical": null,
+        "robots": "",
+        "nombre_og_tags": 0,
+        "nombre_twitter_tags": 0,
+        "score_metadonnees": 5,
+        "qualite_titre": "trop court",
+        "qualite_description": "manquant"
+      },
+      "images": {
+        "nombre_total_images": 0,
+        "avec_alt": 0,
+        "sans_alt": 0,
+        "couverture_alt_pourcentage": 0,
+        "score_images": 50,
+        "problemes": []
+      },
+      "donnees_structurees": {
+        "json_ld_present": false,
+        "nombre_json_ld": 0,
+        "schemas_json_ld": [],
+        "microdata_present": false,
+        "nombre_microdata": 0,
+        "schemas_microdata": [],
+        "score_donnees_structurees": 0,
+        "types_detectes": []
+      },
+      "crawlabilite": {
+        "nombre_liens_internes": 0,
+        "exemples_liens_internes": [],
+        "meta_robots": "",
+        "noindex": false,
+        "nofollow": false,
+        "sitemap_declare": false,
+        "score_crawlabilite": 70,
+        "problemes_crawl": [
+          "Peu de liens internes - navigation limitée"
+        ]
+      }
+    },
+    "performance": {
+      "core_web_vitals": {
+        "desktop": {
+          "LCP_ms": 206,
+          "LCP_evaluation": "Excellent",
+          "CLS_score": 0,
+          "CLS_evaluation": "Excellent",
+          "FCP_ms": 206,
+          "FCP_evaluation": "Excellent",
+          "TBT_ms": 0,
+          "TBT_evaluation": "Excellent",
+          "score_cwv": 85,
+          "score_performance": 100,
+          "strategie": "desktop"
+        },
+        "mobile": {
+          "LCP_ms": 757,
+          "LCP_evaluation": "Excellent",
+          "CLS_score": 0,
+          "CLS_evaluation": "Excellent",
+          "FCP_ms": 757,
+          "FCP_evaluation": "Excellent",
+          "TBT_ms": 0,
+          "TBT_evaluation": "Excellent",
+          "score_cwv": 85,
+          "score_performance": 100,
+          "strategie": "mobile"
+        }
+      },
+      "taille_page": {
+        "taille_octets": 20,
+        "taille_ko": 0.02,
+        "evaluation_taille": "Très léger",
+        "score_taille": 100
+      },
+      "temps_reponse": {
+        "temps_reponse_ms": 30472,
+        "evaluation_temps": "Très lent",
+        "score_temps_reponse": 20,
+        "status_code": 200
+      },
+      "score_performance_global": 80
+    }
+  },
+  "scores": {
+    "score_global": 57.6,
+    "niveau_performance": "Moyen",
+    "scores_categories": {
+      "contenu": 52,
+      "structure": 43,
+      "performance": 80
+    },
+    "forces": [
+      "Performance & Vitesse"
+    ],
+    "faiblesses": [],
+    "details_scoring": {
+      "poids_utilises": {
+        "contenu": 0.35,
+        "structure": 0.25,
+        "performance": 0.25
+      },
+      "nombre_categories": 3
+    }
+  },
+  "recommandations": {
+    "contenu": [
+      "📝 Enrichir le contenu : ajouter au moins 300 mots pour améliorer la pertinence SEO",
+      "🏷️ Ajouter plus d'entités nommées (personnes, lieux, organisations) pour enrichir la sémantique",
+      "📋 Structurer avec des listes à puces pour améliorer la lisibilité",
+      "📚 Inclure des citations et références pour renforcer la crédibilité"
+    ],
+    "structure": [
+      "📏 Optimiser le titre : viser 30-60 caractères (actuellement 14)",
+      "📄 Ajouter une meta description attractive de 150-160 caractères",
+      "🔗 Ajouter une URL canonique pour éviter le contenu dupliqué",
+      "🖼️ Ajouter des attributs alt à toutes les images (0% actuellement)",
+      "🏗️ Implémenter des données structurées (JSON-LD) pour améliorer l'affichage dans les résultats"
+    ],
+    "performance": [
+      "⏱️ Améliorer le temps de réponse serveur : actuellement 30472 ms"
+    ],
+    "maillage": [],
+    "prioritaires": [
+      "📝 Enrichir le contenu : ajouter au moins 300 mots pour améliorer la pertinence SEO",
+      "🏷️ Ajouter plus d'entités nommées (personnes, lieux, organisations) pour enrichir la sémantique",
+      "📏 Optimiser le titre : viser 30-60 caractères (actuellement 14)"
+    ]
+  }
+}

@@ -67,9 +67,20 @@ st.markdown("""
 
 st.title("➕ Nouvelle Analyse SEO")
 
-# Section principale - Formulaire d'analyse
-st.markdown('<div class="analysis-form">', unsafe_allow_html=True)
-st.header("🚀 Lancer une Nouvelle Analyse")
+# Section principale - Formulaire d'analyse avec design amélioré
+st.markdown('''
+<div style="
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    color: white;
+    margin: 1rem 0;
+    box-shadow: 0 8px 32px rgba(102, 126, 234, 0.2);
+">
+    <h2 style="margin-bottom: 1.5rem; text-align: center;">🚀 Lancer une Nouvelle Analyse SEO</h2>
+    <p style="text-align: center; opacity: 0.9; margin-bottom: 2rem;">Analysez n'importe quelle page web en profondeur avec notre outil SEO avancé</p>
+</div>
+''', unsafe_allow_html=True)
 
 with st.form("new_analysis_form"):
     # URL à analyser
@@ -117,55 +128,6 @@ with st.form("new_analysis_form"):
 
 st.markdown('</div>', unsafe_allow_html=True)
 
-# URLs rapides suggérées
-with st.expander("⚡ URLs Rapides Suggérées"):
-    st.markdown('<div class="quick-urls">', unsafe_allow_html=True)
-    
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.write("**🏦 Finance**")
-        quick_urls_finance = [
-            "https://www.meilleurtaux.com",
-            "https://www.boursorama.com",
-            "https://www.credit-agricole.fr"
-        ]
-        for url in quick_urls_finance:
-            if st.button(f"📊 {url.split('//')[1].split('.')[1]}", key=f"finance_{url}"):
-                st.session_state.quick_url = url
-                st.rerun()
-    
-    with col2:
-        st.write("**🛒 E-commerce**")
-        quick_urls_ecommerce = [
-            "https://www.amazon.fr",
-            "https://www.fnac.com",
-            "https://www.cdiscount.com"
-        ]
-        for url in quick_urls_ecommerce:
-            if st.button(f"🛍️ {url.split('//')[1].split('.')[1]}", key=f"ecommerce_{url}"):
-                st.session_state.quick_url = url
-                st.rerun()
-    
-    with col3:
-        st.write("**📰 Actualités**")
-        quick_urls_news = [
-            "https://www.lemonde.fr",
-            "https://www.lefigaro.fr",
-            "https://www.liberation.fr"
-        ]
-        for url in quick_urls_news:
-            if st.button(f"📰 {url.split('//')[1].split('.')[1]}", key=f"news_{url}"):
-                st.session_state.quick_url = url
-                st.rerun()
-    
-    st.markdown('</div>', unsafe_allow_html=True)
-
-# Gestion de l'URL rapide sélectionnée
-if hasattr(st.session_state, 'quick_url'):
-    url_input = st.session_state.quick_url
-    del st.session_state.quick_url
-    st.rerun()
 
 # Traitement du formulaire
 if submit_button:

@@ -9,6 +9,12 @@ Interface principale pour visualiser les analyses SEO.
 import streamlit as st
 import sys
 from pathlib import Path
+from dotenv import load_dotenv
+import os
+
+# Charger les variables d'environnement
+env_path = Path(__file__).parent.parent / '.env'
+load_dotenv(env_path)
 
 # Ajouter le répertoire parent au path pour les imports
 sys.path.append(str(Path(__file__).parent.parent))
@@ -20,6 +26,7 @@ from dashboard.components.charts import (
     create_enhanced_insights_chart, create_recommendations_priority_chart,
     display_score_card
 )
+from dashboard.style import inject_dashboard_styles
 import pandas as pd
 from datetime import datetime
 import json
@@ -27,76 +34,14 @@ import json
 
 # Configuration de la page
 st.set_page_config(
-    page_title="SEO Analyzer Dashboard",
+    page_title="Dashboard SEO",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# CSS personnalisé pour améliorer l'apparence
-st.markdown("""
-<style>
-    .main-header {
-        font-size: 2.5rem;
-        font-weight: bold;
-        color: #1f2937;
-        text-align: center;
-        margin-bottom: 2rem;
-        padding: 1rem 0;
-        border-bottom: 3px solid #3b82f6;
-    }
-    
-    .metric-container {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 1rem;
-        border-radius: 10px;
-        color: white;
-        text-align: center;
-        margin: 0.5rem 0;
-    }
-    
-    .improvement-badge {
-        background-color: #dcfce7;
-        color: #166534;
-        padding: 0.25rem 0.75rem;
-        border-radius: 9999px;
-        font-size: 0.875rem;
-        font-weight: 500;
-        display: inline-block;
-        margin: 0.25rem;
-    }
-    
-    .warning-badge {
-        background-color: #fef3c7;
-        color: #92400e;
-        padding: 0.25rem 0.75rem;
-        border-radius: 9999px;
-        font-size: 0.875rem;
-        font-weight: 500;
-        display: inline-block;
-        margin: 0.25rem;
-    }
-    
-    .critical-badge {
-        background-color: #fee2e2;
-        color: #991b1b;
-        padding: 0.25rem 0.75rem;
-        border-radius: 9999px;
-        font-size: 0.875rem;
-        font-weight: 500;
-        display: inline-block;
-        margin: 0.25rem;
-    }
-    
-    div.stTabs > div > div > div > div {
-        padding-top: 1rem;
-    }
-    
-    .sidebar .sidebar-content {
-        background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
-    }
-</style>
-""", unsafe_allow_html=True)
+# Injecter les styles CSS centralisés
+inject_dashboard_styles()
 
 
 @st.cache_data
@@ -111,7 +56,7 @@ def main():
     """Fonction principale du dashboard."""
     
     # Header principal
-    st.markdown('<h1 class="main-header">🔍 SEO Analyzer Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🔍 Dashboard SEO Professionnel</h1>', unsafe_allow_html=True)
     
     # Chargement des données avec détection des changements
     try:
